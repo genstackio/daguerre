@@ -1,0 +1,35 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "lambdas": {
+        "{{name}}": {}
+    },
+    "apigws": {
+        "{{name}}": {
+            "links": [
+                {
+                    "type": "lambdas",
+                    "name": "{{name}}",
+                    "mode": "-"
+                },
+                {
+                    "type": "records",
+                    "name": "{{name}}",
+                    "mode": "-"
+                }
+            ]
+        }
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                {
+                    "type": "apigws",
+                    "name": "{{name}}",
+                    "mode": "-"
+                }
+            ]
+        }
+    }
+}

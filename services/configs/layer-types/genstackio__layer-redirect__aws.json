@@ -1,0 +1,32 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cloudfuncs": {
+        "redirect": {}
+    },
+    "edges": {
+        "redirect": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                {
+                    "type": "records",
+                    "name": "{{name}}",
+                    "mode": "-"
+                },
+                {
+                    "type": "edges",
+                    "name": "redirect",
+                    "mode": ">"
+                },
+                {
+                    "type": "cloudfuncs",
+                    "name": "redirect",
+                    "mode": "<"
+                }
+            ]
+        }
+    }
+}

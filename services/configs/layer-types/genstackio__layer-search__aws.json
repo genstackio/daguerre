@@ -1,0 +1,24 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                {
+                    "type": "opensearches",
+                    "name": "{{name}}",
+                    "mode": "-"
+                },
+                {
+                    "type": "records",
+                    "name": "{{name}}",
+                    "mode": "-"
+                }
+            ]
+        }
+    },
+    "opensearches": {
+        "{{name}}": {}
+    }
+}

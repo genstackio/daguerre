@@ -16,9 +16,12 @@ type ItemModel struct {
 	Params    map[string]ParamModel `json:"params"`
 }
 type LinkModel struct {
-	From LinkEndpointModel `json:"from"`
-	To   LinkEndpointModel `json:"to"`
-	Mode string            `json:"mode"`
+	From   LinkEndpointModel `json:"from"`
+	To     LinkEndpointModel `json:"to"`
+	Mode   string            `json:"mode"`
+	Count  int               `json:"count"`
+	Labels map[string]bool   `json:"labels"`
+	Label  string            `json:"label"`
 }
 
 type LinkEndpointModel struct {

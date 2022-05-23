@@ -6,7 +6,7 @@ import (
 )
 
 func Tables(lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
-	t := utils.EnsureList("aws_dynamodb_table", m)
-	utils.PopulateNodes[commons.TableConfig](t, l.Name, l.Hidden, lt.Tables, lt, l, m)
-	utils.PopulateNodes[commons.TableConfig](t, l.Name, l.Hidden, l.Tables, lt, l, m)
+	t := utils.EnsureList("tables", m)
+	utils.PopulateNodes[commons.TableConfig](t, l.Name, l.Hidden, lt.Tables, lt, l, m, 150)
+	utils.PopulateNodes[commons.TableConfig](t, l.Name, l.Hidden, l.Tables, lt, l, m, 150)
 }

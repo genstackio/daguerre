@@ -1,6 +1,8 @@
 package services
 
-import "github.com/genstackio/daguerre/commons"
+import (
+	"github.com/genstackio/daguerre/commons"
+)
 
 func analyzeLayer(l *commons.LayerConfig, m *commons.Model, c *commons.Config) error {
 	lt, err := getLayerTypeConfig(l, c)

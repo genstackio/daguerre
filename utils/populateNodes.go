@@ -1,14 +1,16 @@
 package utils
 
-import "github.com/genstackio/daguerre/commons"
+import (
+	"github.com/genstackio/daguerre/commons"
+)
 
-func PopulateNodes[T interface{}](t string, name string, hidden bool, x map[string]T, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
+func PopulateNodes[T interface{}](t string, name string, hidden bool, x map[string]T, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model, points int) {
 	if nil != x {
 		for k := range x {
 			if "{{name}}" == k {
 				k = name
 			}
-			nod := commons.Node{Type: t, Name: k, Hidden: hidden}
+			nod := commons.Node{Type: t, Name: k, Hidden: hidden, Points: points}
 			if !hidden {
 				if _, found := m.Lists[t][k]; !found {
 					m.Lists[t][k] = commons.ItemModel{

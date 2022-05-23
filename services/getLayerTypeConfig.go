@@ -1,8 +1,8 @@
 package services
 
 import (
-	"errors"
 	"github.com/genstackio/daguerre/commons"
+	"log"
 )
 
 func getLayerTypeConfig(l *commons.LayerConfig, c *commons.Config) (*commons.LayerConfig, error) {
@@ -16,7 +16,8 @@ func getLayerTypeConfig(l *commons.LayerConfig, c *commons.Config) (*commons.Lay
 	lt, found := c.LayerTypes[l.Type]
 
 	if !found {
-		return nil, errors.New("unknown layer type '" + l.Type + "'")
+		log.Println("layer type > unknown '" + l.Type + "'")
+		return &commons.LayerConfig{}, nil
 	}
 
 	return &lt, nil

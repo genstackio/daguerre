@@ -6,7 +6,7 @@ import (
 )
 
 func Apigws(lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
-	t := utils.EnsureList("aws_apigateway_api", m)
-	utils.PopulateNodes[commons.ApigwConfig](t, l.Name, l.Hidden, lt.Apigws, lt, l, m)
-	utils.PopulateNodes[commons.ApigwConfig](t, l.Name, l.Hidden, l.Apigws, lt, l, m)
+	t := utils.EnsureList("apigws", m)
+	utils.PopulateNodes[commons.ApigwConfig](t, l.Name, l.Hidden, lt.Apigws, lt, l, m, 70)
+	utils.PopulateNodes[commons.ApigwConfig](t, l.Name, l.Hidden, l.Apigws, lt, l, m, 70)
 }

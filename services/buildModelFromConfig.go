@@ -1,6 +1,8 @@
 package services
 
-import "github.com/genstackio/daguerre/commons"
+import (
+	"github.com/genstackio/daguerre/commons"
+)
 
 func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
 	m := commons.Model{
@@ -35,7 +37,10 @@ func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
 	}
 
 	// analyze
-	for _, v := range c.Layers {
+	for k, v := range c.Layers {
+		if len(v.Name) == 0 {
+			v.Name = k
+		}
 		err := analyzeLayer(&v, &m, c)
 		if nil != err {
 			return nil, err
@@ -43,7 +48,10 @@ func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
 	}
 
 	// link
-	for _, v := range c.Layers {
+	for k, v := range c.Layers {
+		if len(v.Name) == 0 {
+			v.Name = k
+		}
 		err := linkLayer(&v, &m, c)
 		if nil != err {
 			return nil, err

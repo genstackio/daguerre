@@ -1,5 +1,7 @@
 package commons
 
+import "github.com/blushft/go-diagrams/diagram"
+
 type Order struct {
 	Input    string   `json:"input"`
 	Show     []string `json:"show"`
@@ -32,6 +34,8 @@ type Model struct {
 }
 
 type CtxEntry struct {
+	Dnode  *diagram.Node  `json:"dnode"`
+	Dgroup *diagram.Group `json:"dgroup"`
 }
 
 type Ctx struct {
@@ -43,6 +47,7 @@ type Node struct {
 	Type   string `json:"type"`
 	Name   string `json:"name"`
 	Hidden bool   `json:"hidden"`
+	Points int    `json:"points"`
 }
 
 type MapperFunc func(n string, v interface{}, lt *LayerConfig, l *LayerConfig) interface{}

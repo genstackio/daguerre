@@ -53,5 +53,5 @@ func loadConfig(path string) (*commons.Config, error) {
 		config.LayerTypes[lt.Name] = lt
 	}
 
-	return &config, nil
+	return config, nil
 }

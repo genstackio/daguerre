@@ -6,7 +6,7 @@ import (
 )
 
 func Ses(lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
-	t := utils.EnsureList("aws_ses_cluster", m)
-	utils.PopulateNodes[commons.SesConfig](t, l.Name, l.Hidden, lt.Ses, lt, l, m)
-	utils.PopulateNodes[commons.SesConfig](t, l.Name, l.Hidden, l.Ses, lt, l, m)
+	t := utils.EnsureList("ses", m)
+	utils.PopulateNodes[commons.SesConfig](t, l.Name, l.Hidden, lt.Ses, lt, l, m, 150)
+	utils.PopulateNodes[commons.SesConfig](t, l.Name, l.Hidden, l.Ses, lt, l, m, 150)
 }

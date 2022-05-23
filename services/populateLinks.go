@@ -8,6 +8,9 @@ func populateLinks(links *[]string, m *commons.Model) {
 	if nil == links {
 		return
 	}
+	if nil == m.Links {
+		m.Links = &[]commons.LinkModel{}
+	}
 	for _, v := range *links {
 		for _, vv := range parseLink(v, m) {
 			*m.Links = append(*m.Links, vv)

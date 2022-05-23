@@ -6,7 +6,7 @@ import (
 )
 
 func Zones(lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
-	t := utils.EnsureList("aws_route53_zone", m)
-	utils.PopulateNodes[commons.ZoneConfig](t, l.Name, l.Hidden, lt.Zones, lt, l, m)
-	utils.PopulateNodes[commons.ZoneConfig](t, l.Name, l.Hidden, l.Zones, lt, l, m)
+	t := utils.EnsureList("zones", m)
+	utils.PopulateNodes[commons.ZoneConfig](t, l.Name, l.Hidden, lt.Zones, lt, l, m, 10)
+	utils.PopulateNodes[commons.ZoneConfig](t, l.Name, l.Hidden, l.Zones, lt, l, m, 10)
 }

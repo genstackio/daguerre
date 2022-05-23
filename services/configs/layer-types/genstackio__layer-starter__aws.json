@@ -1,0 +1,24 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                {
+                    "type": "buckets",
+                    "name": "{{name}}",
+                    "mode": "-"
+                },
+                {
+                    "type": "records",
+                    "name": "{{name}}",
+                    "mode": "-"
+                }
+            ]
+        }
+    },
+    "buckets": {
+        "{{name}}": {}
+    }
+}

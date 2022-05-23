@@ -6,7 +6,7 @@ import (
 )
 
 func Lambdas(lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
-	t := utils.EnsureList("aws_lambda_function", m)
-	utils.PopulateNodes[commons.LambdaConfig](t, l.Name, l.Hidden, lt.Lambdas, lt, l, m)
-	utils.PopulateNodes[commons.LambdaConfig](t, l.Name, l.Hidden, l.Lambdas, lt, l, m)
+	t := utils.EnsureList("lambdas", m)
+	utils.PopulateNodes[commons.LambdaConfig](t, l.Name, l.Hidden, lt.Lambdas, lt, l, m, 100)
+	utils.PopulateNodes[commons.LambdaConfig](t, l.Name, l.Hidden, l.Lambdas, lt, l, m, 100)
 }

@@ -23,35 +23,134 @@ type LayerConfig struct {
 	Zones        map[string]ZoneConfig       `json:"zones"`
 }
 
+type LinksAware interface {
+	GetLinks() *[]string
+}
+
 type ApigwConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c ApigwConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type BucketConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c BucketConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type BusConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c BusConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type CdnConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c CdnConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type CloudfuncConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c CloudfuncConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type EdgeConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c EdgeConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type LambdaConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c LambdaConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type OpensearchConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c OpensearchConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type PartnerConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c PartnerConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type PersonaConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c PersonaConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type QueueConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c QueueConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type RecordConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c RecordConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type SesConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c SesConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type TableConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c TableConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type TopicConfig struct {
+	Links *[]string `json:"links"`
 }
+
+func (c TopicConfig) GetLinks() *[]string {
+	return c.Links
+}
+
 type ZoneConfig struct {
+	Links *[]string `json:"links"`
+}
+
+func (c ZoneConfig) GetLinks() *[]string {
+	return c.Links
 }

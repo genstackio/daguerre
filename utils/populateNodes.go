@@ -4,12 +4,11 @@ import (
 	"github.com/genstackio/daguerre/commons"
 )
 
-func PopulateNodes[T interface{}](t string, name string, hidden bool, x map[string]T, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model, points int) {
+func PopulateNodes[T interface{}](ctx *commons.Ctx, t string, name string, hidden bool, x map[string]T, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model, points int) {
 	if nil != x {
 		for k := range x {
-			if "{{name}}" == k {
-				k = name
-			}
+			vars := map[string]string{"name": name}
+			k = ReplaceVars(k, vars)
 			nod := commons.Node{Type: t, Name: k, Hidden: hidden, Points: points}
 			if !hidden {
 				if _, found := m.Lists[t][k]; !found {

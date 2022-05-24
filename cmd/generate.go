@@ -16,8 +16,8 @@ based on a description file.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := services.Generate(&commons.Order{
 			Input:    "./platform.json",
-			Show:     []string{"api", "db", "events", "api-game", "admin"},
-			Expand:   []string{"all"},
+			Show:     []string{},
+			Expand:   []string{"api", "events", "redirect", "api-game", "admin"},
 			Collapse: []string{},
 			Clusters: []string{},
 			Personae: []string{"all"},

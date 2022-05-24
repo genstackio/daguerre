@@ -3,13 +3,9 @@ package services
 import (
 	"github.com/blushft/go-diagrams/diagram"
 	"github.com/genstackio/daguerre/commons"
-	"log"
 )
 
-func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
-	ctx := commons.Ctx{}
-
-	initCtx(&ctx)
+func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 
 	expandeds := map[string]bool{}
 	collapseds := map[string]bool{}
@@ -48,17 +44,13 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 			if found || found2 || found3 {
 				if "personae" == a || "partners" == a {
 					requiredSpecials[a][c] = true
-				} else {
-					if len(a) > 0 {
-						requireds[a] = true
-					}
+				} else if len(a) > 0 {
+					requireds[a] = true
 				}
 				if "personae" == b || "partners" == b {
 					requiredSpecials[b][d] = true
-				} else {
-					if len(b) > 0 {
-						requireds[b] = true
-					}
+				} else if len(b) > 0 {
+					requireds[b] = true
 				}
 			}
 		}
@@ -77,8 +69,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 			for _, v := range *m.Clusters[kk].Nodes {
 				if _, found := m.Lists[v.Type]; found {
 					if !v.Hidden {
-						log.Println(kk, v.Type, v.Name)
-						dnode := createDiagramNode(&v, true)
+						dnode := createDiagramNode(ctx, &v, true)
 						if nil != dnode {
 							if nil == ctx.Items[v.Type] {
 								ctx.Items[v.Type] = map[string]commons.CtxEntry{}
@@ -95,7 +86,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 			_, found1 = collapseds[kk]
 			_, found2 = collapseds["all"]
 			if found1 || found2 {
-				dgroup := createDiagramGroup(rootGroup, kk, m)
+				dgroup := createDiagramGroup(ctx, rootGroup, kk, m)
 				if nil == ctx.Clusters {
 					ctx.Clusters = map[string]commons.CtxEntry{}
 				}
@@ -106,7 +97,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 				_, found1 = requireds[kk]
 				_, found2 = requireds["all"]
 				if found1 || found2 {
-					dgroup := createDiagramGroup(rootGroup, kk, m)
+					dgroup := createDiagramGroup(ctx, rootGroup, kk, m)
 					if nil == ctx.Clusters {
 						ctx.Clusters = map[string]commons.CtxEntry{}
 					}
@@ -133,7 +124,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 						ctx.Items["personae"] = map[string]commons.CtxEntry{}
 					}
 					if cc, found4 := p.Params["multiple"]; found4 && cc.Type == "bool" && cc.BoolValue {
-						dnode := createDiagramNode(&commons.Node{
+						dnode := createDiagramNode(ctx, &commons.Node{
 							Type: "users",
 							Name: i,
 						}, true)
@@ -141,7 +132,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 							Dnode: dnode,
 						}
 					} else {
-						dnode := createDiagramNode(&commons.Node{
+						dnode := createDiagramNode(ctx, &commons.Node{
 							Type: "user",
 							Name: i,
 						}, true)
@@ -150,7 +141,7 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 						}
 					}
 				} else {
-					dnode := createDiagramNode(&commons.Node{
+					dnode := createDiagramNode(ctx, &commons.Node{
 						Type: "user",
 						Name: i,
 					}, true)
@@ -171,15 +162,15 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 					if _, found3 := ctx.Items["partners"]; !found3 {
 						ctx.Items["partners"] = map[string]commons.CtxEntry{}
 					}
-					dnode := createDiagramNode(&commons.Node{
-						Type: i,
+					dnode := createDiagramNode(ctx, &commons.Node{
+						Type: "partners",
 						Name: i,
 					}, true)
 					ctx.Items["partners"][i] = commons.CtxEntry{
 						Dnode: dnode,
 					}
 				} else {
-					dnode := createDiagramNode(&commons.Node{
+					dnode := createDiagramNode(ctx, &commons.Node{
 						Type: "unknown",
 						Name: i,
 					}, true)
@@ -191,58 +182,61 @@ func loadModel(d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 		}
 	}
 
-	kept_links := map[string]commons.LinkModel{}
+	keptLinks := map[string]commons.KeptLinkModel{}
 
 	for _, ll := range *m.Links {
-		a, b, md, c, d, e := explodeLink(ll, &ctx, expandeds, collapseds, m)
+		a, b, md, c, d, e := explodeLink(ctx, ll, m)
 		kk := c + md + d
-		if v, found := kept_links[kk]; found {
-			v.Count = kept_links[kk].Count + 1
+		if v, found := keptLinks[kk]; found {
+			v.Count = v.Count + 1
 			if len(e) == 0 {
-				kept_links[kk].Labels[e] = true
+				v.Labels[e] = true
 			} else {
-				kept_links[kk] = commons.LinkModel{From: a, To: b, Count: 1, Labels: map[string]bool{}, Mode: md}
-				if len(e) > 0 {
-					kept_links[kk].Labels[e] = true
-				}
+				v.Label = e
+			}
+		} else {
+			v := commons.KeptLinkModel{From: a, To: b, Count: 1, Labels: map[string]bool{}, Mode: md}
+			keptLinks[kk] = v
+			if len(e) > 0 {
+				v.Labels[e] = true
 			}
 		}
 	}
 
-	for l := range kept_links {
+	for _, l := range keptLinks {
 		a := l.From
 		b := l.To
 		cc := l.Count
 		md := l.Mode
-		if len(a) > 0 && len(b) > 0 {
+		if nil != a && nil != b {
 			if "-" == md {
 				if cc > 1 {
-					d.Connect(a, b) // "(" + string(cc) + ")"
+					connectCtxEntries(d, a, b, l.Mode, "("+string(cc)+")")
 				} else {
-					d.Connect(a, b)
+					connectCtxEntries(d, a, b, l.Mode, l.Label)
 				}
+			} else if ">" == md {
+				if cc > 1 {
+					connectCtxEntries(d, a, b, l.Mode, "("+string(cc)+")")
+				} else {
+					connectCtxEntries(d, a, b, l.Mode, l.Label)
+				}
+			} else if "<" == md {
+				if cc > 1 {
+					connectCtxEntries(d, a, b, l.Mode, "("+string(cc)+")")
+				} else {
+					connectCtxEntries(d, a, b, l.Mode, l.Label)
+				}
+			} else if "=" == md {
+				if cc > 1 {
+					connectCtxEntries(d, a, b, l.Mode, "("+string(cc)+")")
+				} else {
+					connectCtxEntries(d, a, b, l.Mode, l.Label)
+				}
+			} else if cc > 1 {
+				connectCtxEntries(d, a, b, l.Mode, "("+string(cc)+")")
 			} else {
-				if ">" == md {
-					if cc > 1 {
-						d.Connect(a, b) // "(" + string(cc) + ")"
-					} else {
-						d.Connect(a, b)
-					}
-				} else {
-					if "<" == md {
-						if cc > 1 {
-							d.Connect(a, b) // "(" + string(cc) + ")"
-						} else {
-							d.Connect(a, b)
-						}
-					} else {
-						if cc > 1 {
-							d.Connect(a, b) // "(" + string(cc) + ")"
-						} else {
-							d.Connect(a, b)
-						}
-					}
-				}
+				connectCtxEntries(d, a, b, l.Mode, l.Label)
 			}
 		}
 	}

@@ -1,9 +1,15 @@
 package services
 
-import "github.com/genstackio/daguerre/commons"
+import (
+	"github.com/genstackio/daguerre/commons"
+	"log"
+)
 
-func explodeLink(l commons.LinkModel, ctx *commons.Ctx, expandeds map[string]bool, collapseds map[string]bool, m *commons.Model) (*commons.CtxEntry, *commons.CtxEntry, string, string, string, string) {
-	l.To = alignLinkEndpoint(l.To, m)
+func explodeLink(ctx *commons.Ctx, l commons.LinkModel, m *commons.Model) (*commons.CtxEntry, *commons.CtxEntry, string, string, string, string) {
+	if aligner, found := ctx.GetLinkEndpointAligner(l.To.Type); found {
+		l.To = aligner(ctx, l.To, m)
+	}
+
 	f := l.From.Type
 	t := l.To.Type
 	var a *commons.CtxEntry = nil
@@ -11,7 +17,7 @@ func explodeLink(l commons.LinkModel, ctx *commons.Ctx, expandeds map[string]boo
 	c := "?"
 	d := "?"
 	e := ""
-	cluster_name := ""
+	clusterName := ""
 
 	if len(l.Label) > 0 {
 		e = l.Label
@@ -24,15 +30,19 @@ func explodeLink(l commons.LinkModel, ctx *commons.Ctx, expandeds map[string]boo
 			if items2, found3 := m.Lists[f]; found3 {
 				if item2, found4 := items2[l.From.Name]; found4 {
 					if len(item2.Cluster) > 0 {
-						cluster_name = item2.Cluster
-						if item3, found5 := ctx.Clusters[cluster_name]; found5 {
+						clusterName = item2.Cluster
+						if item3, found5 := ctx.Clusters[clusterName]; found5 {
 							a = &item3
-							c = "clusters/" + cluster_name
+							c = "clusters/" + clusterName
 						}
 					}
 				}
+			} else {
+				log.Println("link > unknown 'from' name : " + l.ToString())
 			}
 		}
+	} else {
+		log.Println("link > unknown 'from' type : " + l.ToString())
 	}
 	if items, found := ctx.Items[t]; found {
 		if item, found2 := items[l.To.Name]; found2 {
@@ -42,18 +52,28 @@ func explodeLink(l commons.LinkModel, ctx *commons.Ctx, expandeds map[string]boo
 			if items2, found3 := m.Lists[t]; found3 {
 				if item2, found4 := items2[l.To.Name]; found4 {
 					if len(item2.Cluster) > 0 {
-						cluster_name = item2.Cluster
-						if item3, found5 := ctx.Clusters[cluster_name]; found5 {
-							a = &item3
-							c = "clusters/" + cluster_name
+						clusterName = item2.Cluster
+						if item3, found5 := ctx.Clusters[clusterName]; found5 {
+							b = &item3
+							d = "clusters/" + clusterName
 						}
 					}
 				}
+			} else {
+				log.Println("link > unknown 'to' name : " + l.ToString())
 			}
 		}
+	} else {
+		log.Println("link > unknown 'to' type : " + l.ToString())
 	}
-	if a == b {
-		return nil, nil, l.Mode, c, d, e
+
+	if nil != a && nil != b {
+		if a == b {
+			return nil, nil, l.Mode, c, d, e
+		}
+		if a.Dnode == b.Dnode {
+			return nil, nil, l.Mode, c, d, e
+		}
 	}
 
 	return a, b, l.Mode, c, d, e

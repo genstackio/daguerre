@@ -1,0 +1,16 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- opensearches/{{name}}",
+                "- records/{{name}}"
+            ]
+        }
+    },
+    "opensearches": {
+        "{{name}}": {}
+    }
+}

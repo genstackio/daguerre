@@ -5,10 +5,10 @@ import (
 	"github.com/genstackio/daguerre/commons"
 )
 
-func createDiagramGroup(g *diagram.Group, name string, m *commons.Model) *diagram.Group {
-	gg := diagram.NewGroup(name).Label(name)
+func createDiagramGroup(ctx *commons.Ctx, g *diagram.Group, name string, m *commons.Model) *diagram.Group {
+	gg := g.NewGroup(name).Label(name)
 
-	g.Group(gg)
+	//g.Group(gg)
 
 	if _, found := m.Clusters[name]; found {
 		points := map[string]int{}
@@ -24,18 +24,18 @@ func createDiagramGroup(g *diagram.Group, name string, m *commons.Model) *diagra
 			}
 		}
 		if len(vn) > 0 {
-			return gg.Add(createDiagramNode(&commons.Node{
+			return gg.Add(createDiagramNode(ctx, &commons.Node{
 				Type: vn,
 				Name: name,
-			}, true))
+			}, false))
 		}
-		return gg.Add(createDiagramNode(&commons.Node{
+		return gg.Add(createDiagramNode(ctx, &commons.Node{
 			Type: "cluster_item",
 			Name: name,
-		}, true))
+		}, false))
 	}
-	return gg.Add(createDiagramNode(&commons.Node{
+	return gg.Add(createDiagramNode(ctx, &commons.Node{
 		Type: "cluster_item",
 		Name: name,
-	}, true))
+	}, false))
 }

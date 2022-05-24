@@ -2,9 +2,10 @@ package services
 
 import (
 	"github.com/genstackio/daguerre/commons"
+	"github.com/genstackio/daguerre/utils"
 )
 
-func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
+func buildModelFromConfig(ctx *commons.Ctx, c *commons.Config) (*commons.Model, error) {
 	m := commons.Model{
 		Name:      c.Name,
 		Direction: c.Direction,
@@ -41,9 +42,22 @@ func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
 		if len(v.Name) == 0 {
 			v.Name = k
 		}
-		err := analyzeLayer(&v, &m, c)
+
+		lt, err := getLayerTypeConfig(&v, c)
+
 		if nil != err {
 			return nil, err
+		}
+
+		if nil == m.Clusters {
+			m.Clusters = map[string]commons.ClusterModel{}
+		}
+		m.Clusters[v.Name] = commons.ClusterModel{
+			Nodes: &[]commons.Node{},
+		}
+
+		for _, nt := range ctx.NodeTypes {
+			nt.NodeCreator(ctx, lt, &v, &m)
 		}
 	}
 
@@ -52,7 +66,22 @@ func buildModelFromConfig(c *commons.Config) (*commons.Model, error) {
 		if len(v.Name) == 0 {
 			v.Name = k
 		}
-		err := linkLayer(&v, &m, c)
+
+		lt, err := getLayerTypeConfig(&v, c)
+
+		if nil != err {
+			return nil, err
+		}
+
+		vars := map[string]string{}
+
+		utils.PopulateLinks(ctx, lt.Links, &m, vars, "")
+		utils.PopulateLinks(ctx, v.Links, &m, vars, "")
+
+		for _, nt := range ctx.NodeTypes {
+			nt.LinkPopulator(ctx, lt, &v, &m)
+		}
+
 		if nil != err {
 			return nil, err
 		}

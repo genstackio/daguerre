@@ -1,0 +1,16 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "edges": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- edges/{{name}}",
+                "- records/{{name}}"
+            ]
+        }
+    }
+}

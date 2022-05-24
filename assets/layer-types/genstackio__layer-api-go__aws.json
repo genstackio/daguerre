@@ -1,0 +1,23 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "lambdas": {
+        "{{name}}": {}
+    },
+    "apigws": {
+        "{{name}}": {
+            "links": [
+                "- lambdas/{{name}}",
+                "- records/{{name}}"
+            ]
+        }
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- apigws/{{name}}"
+            ]
+        }
+    }
+}

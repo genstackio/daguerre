@@ -1,0 +1,16 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- buckets/{{name}}",
+                "- records/{{name}}"
+            ]
+        }
+    },
+    "buckets": {
+        "{{name}}": {}
+    }
+}

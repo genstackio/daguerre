@@ -1,0 +1,12 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- records/{{name}}"
+            ]
+        }
+    }
+}

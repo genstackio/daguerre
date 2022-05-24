@@ -1,0 +1,20 @@
+{
+    "records": {
+        "{{name}}": {}
+    },
+    "cloudfuncs": {
+        "redirect": {}
+    },
+    "edges": {
+        "redirect": {}
+    },
+    "cdns": {
+        "{{name}}": {
+            "links": [
+                "- records/{{name}}",
+                "> edges/redirect",
+                "< cloudfuncs/redirect"
+            ]
+        }
+    }
+}

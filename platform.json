@@ -3,19 +3,19 @@
   "partners": {
     "stripe": {
       "links": [
-        "partners/stripe > cdns/api-gateway"
+        "> cdns/api-gateway"
       ]
     },
     "paypal": {},
     "lydia": {},
     "smsfactor": {
       "links": [
-        "partners/smsfactor > cdns/api-gateway"
+        "> cdns/api-gateway"
       ]
     },
     "callr": {
       "links": [
-        "partners/callr > cdns/api-gateway"
+        "> cdns/api-gateway"
       ]
     },
     "slack": {}
@@ -23,53 +23,53 @@
   "personae": {
     "super-admin": {
       "links": [
-        "personae/super-admin > cdns/admin",
-        "personae/super-admin > cdns/api",
-        "personae/super-admin > cdns/uploads-public",
-        "personae/super-admin > cdns/redirect"
+        "> cdns/admin",
+        "> cdns/api",
+        "> cdns/uploads-public",
+        "> cdns/redirect"
       ]
     },
     "admins": {
       "multiple": true,
       "links": [
-        "personae/admins > cdns/api",
-        "personae/admins > cdns/manager",
-        "personae/admins > cdns/pages",
-        "personae/admins > cdns/uploads-public",
-        "personae/admins > cdns/redirect"
+        "> cdns/api",
+        "> cdns/manager",
+        "> cdns/pages",
+        "> cdns/uploads-public",
+        "> cdns/redirect"
       ]
     },
     "game-participants": {
       "multiple": true,
       "links": [
-        "personae/game-participants > cdns/errors",
-        "personae/game-participants > cdns/pages",
-        "personae/game-participants > cdns/sales",
-        "personae/game-participants > cdns/widget",
-        "personae/game-participants > cdns/api-image",
-        "personae/game-participants > cdns/api-files",
-        "personae/game-participants > cdns/api-qrcode",
-        "personae/game-participants > cdns/api-widget",
-        "personae/game-participants > cdns/api-payment",
-        "personae/game-participants > cdns/api-pdf",
-        "personae/game-participants > cdns/redirect"
+        "> cdns/errors",
+        "> cdns/pages",
+        "> cdns/sales",
+        "> cdns/widget",
+        "> cdns/api-image",
+        "> cdns/api-files",
+        "> cdns/api-qrcode",
+        "> cdns/api-widget",
+        "> cdns/api-payment",
+        "> cdns/api-pdf",
+        "> cdns/redirect"
       ]
     },
     "game-organizers": {
       "multiple": true,
       "links": [
-        "personae/game-organizers > cdns/errors",
-        "personae/game-organizers > cdns/bridge",
-        "personae/game-organizers > cdns/pages",
-        "personae/game-organizers > cdns/api-spreadsheet",
-        "personae/game-organizers > cdns/api-auth",
-        "personae/game-organizers > cdns/api-payment",
-        "personae/game-organizers > cdns/api-doc",
-        "personae/game-organizers > cdns/api-qrcode",
-        "personae/game-organizers > cdns/api-image",
-        "personae/game-organizers > cdns/api-files",
-        "personae/game-organizers > cdns/uploads-public",
-        "personae/game-organizers > cdns/redirect"
+        "> cdns/errors",
+        "> cdns/bridge",
+        "> cdns/pages",
+        "> cdns/api-spreadsheet",
+        "> cdns/api-auth",
+        "> cdns/api-payment",
+        "> cdns/api-doc",
+        "> cdns/api-qrcode",
+        "> cdns/api-image",
+        "> cdns/api-files",
+        "> cdns/uploads-public",
+        "> cdns/redirect"
       ]
     }
   },

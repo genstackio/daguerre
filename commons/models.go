@@ -19,9 +19,21 @@ type LinkModel struct {
 	From   LinkEndpointModel `json:"from"`
 	To     LinkEndpointModel `json:"to"`
 	Mode   string            `json:"mode"`
-	Count  int               `json:"count"`
 	Labels map[string]bool   `json:"labels"`
 	Label  string            `json:"label"`
+}
+
+func (l LinkModel) ToString() string {
+	return l.From.Type + "/" + l.From.Name + " " + l.Mode + " " + l.To.Type + "/" + l.To.Name
+}
+
+type KeptLinkModel struct {
+	From   *CtxEntry       `json:"from"`
+	To     *CtxEntry       `json:"to"`
+	Mode   string          `json:"mode"`
+	Count  int             `json:"count"`
+	Labels map[string]bool `json:"labels"`
+	Label  string          `json:"label"`
 }
 
 type LinkEndpointModel struct {

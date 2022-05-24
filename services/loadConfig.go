@@ -1,15 +1,14 @@
 package services
 
 import (
-	"embed"
+	"encoding/json"
+	"github.com/genstackio/daguerre/assets"
 	"github.com/genstackio/daguerre/commons"
+	"github.com/genstackio/daguerre/plugins/base"
 	"strings"
 )
 
-//go:embed configs/layer-types/*.json
-var embeddedLayerTypesConfigs embed.FS
-
-func loadConfig(path string) (*commons.Config, error) {
+func loadConfig(ctx *commons.Ctx, path string) (*commons.Config, error) {
 	defaultName := "platform"
 	defaultGraphAttr := map[string]string{
 		"fontsize": "12",
@@ -31,7 +30,7 @@ func loadConfig(path string) (*commons.Config, error) {
 		config.Direction = "LR"
 	}
 
-	entries, err := embeddedLayerTypesConfigs.ReadDir("configs/layer-types")
+	entries, err := assets.LayerTypes.ReadDir("layer-types")
 
 	if nil != err {
 		return nil, err
@@ -41,16 +40,32 @@ func loadConfig(path string) (*commons.Config, error) {
 		config.LayerTypes = map[string]commons.LayerConfig{}
 	}
 	for _, v := range entries {
-		c, err := embeddedLayerTypesConfigs.ReadFile("configs/layer-types/" + v.Name())
-		lt, err := loadLayerTypeConfigFromString(c)
+		c, err := assets.LayerTypes.ReadFile("layer-types/" + v.Name())
+		if nil != err {
+			return nil, err
+		}
+		var lt commons.LayerConfig
+		err = json.NewDecoder(strings.NewReader(string(c))).Decode(&lt)
+		if nil != err {
+			return nil, err
+		}
 		if len(lt.Name) == 0 {
 			lt.Name = strings.ReplaceAll(v.Name(), "__", "/")
 			lt.Name = strings.ReplaceAll(lt.Name, ".json", "")
 		}
-		if nil != err {
-			return nil, err
-		}
 		config.LayerTypes[lt.Name] = lt
+	}
+
+	var plugins = map[string]commons.Plugin{}
+
+	plugins["base"] = base.New() // @todo make it more dynamic for loading multiple plugins
+
+	for _, p := range plugins {
+		p.Register(ctx)
+	}
+
+	for k := range ctx.NodeListNames {
+		ctx.Items[k] = map[string]commons.CtxEntry{}
 	}
 
 	return config, nil

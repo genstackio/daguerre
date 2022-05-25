@@ -14,8 +14,12 @@ func createSesNodeType() commons.PluginNodeType {
 		ListName: "ses",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("ses", m)
-			utils.PopulateNodes[commons.SesConfig](ctx, t, l.Name, l.Hidden, lt.Ses, lt, l, m, 150)
-			utils.PopulateNodes[commons.SesConfig](ctx, t, l.Name, l.Hidden, l.Ses, lt, l, m, 150)
+			utils.PopulateNodes[commons.SesConfig](ctx, t, l.Name, l.Hidden, lt.Ses, lt, l, m, 150, func(config commons.SesConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.SesConfig](ctx, t, l.Name, l.Hidden, l.Ses, lt, l, m, 150, func(config commons.SesConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.SesConfig](ctx, "ses", lt.Ses, l.Ses, m, map[string]string{"name": l.Name})

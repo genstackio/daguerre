@@ -14,8 +14,12 @@ func createTableNodeType() commons.PluginNodeType {
 		ListName: "tables",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("tables", m)
-			utils.PopulateNodes[commons.TableConfig](ctx, t, l.Name, l.Hidden, lt.Tables, lt, l, m, 150)
-			utils.PopulateNodes[commons.TableConfig](ctx, t, l.Name, l.Hidden, l.Tables, lt, l, m, 150)
+			utils.PopulateNodes[commons.TableConfig](ctx, t, l.Name, l.Hidden, lt.Tables, lt, l, m, 150, func(config commons.TableConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.TableConfig](ctx, t, l.Name, l.Hidden, l.Tables, lt, l, m, 150, func(config commons.TableConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.TableConfig](ctx, "tables", lt.Tables, l.Tables, m, map[string]string{"name": l.Name})

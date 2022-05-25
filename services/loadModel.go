@@ -125,15 +125,16 @@ func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *common
 					}
 					if cc, found4 := p.Params["multiple"]; found4 && cc.Type == "bool" && cc.BoolValue {
 						dnode := createDiagramNode(ctx, &commons.Node{
-							Type: "users",
-							Name: i,
+							Type:    "personae",
+							Name:    i,
+							Variant: "users",
 						}, true)
 						ctx.Items["personae"][i] = commons.CtxEntry{
 							Dnode: dnode,
 						}
 					} else {
 						dnode := createDiagramNode(ctx, &commons.Node{
-							Type: "user",
+							Type: "personae",
 							Name: i,
 						}, true)
 						ctx.Items["personae"][i] = commons.CtxEntry{
@@ -142,7 +143,7 @@ func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *common
 					}
 				} else {
 					dnode := createDiagramNode(ctx, &commons.Node{
-						Type: "user",
+						Type: "personae",
 						Name: i,
 					}, true)
 					ctx.Items["personae"][i] = commons.CtxEntry{

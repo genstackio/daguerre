@@ -14,8 +14,12 @@ func createEdgeNodeType() commons.PluginNodeType {
 		ListName: "edges",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("edges", m)
-			utils.PopulateNodes[commons.EdgeConfig](ctx, t, l.Name, l.Hidden, lt.Edges, lt, l, m, 80)
-			utils.PopulateNodes[commons.EdgeConfig](ctx, t, l.Name, l.Hidden, l.Edges, lt, l, m, 80)
+			utils.PopulateNodes[commons.EdgeConfig](ctx, t, l.Name, l.Hidden, lt.Edges, lt, l, m, 80, func(config commons.EdgeConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.EdgeConfig](ctx, t, l.Name, l.Hidden, l.Edges, lt, l, m, 80, func(config commons.EdgeConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.EdgeConfig](ctx, "edges", lt.Edges, l.Edges, m, map[string]string{"name": l.Name})

@@ -14,8 +14,12 @@ func createCdnNodeType() commons.PluginNodeType {
 		ListName: "cdns",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("cdns", m)
-			utils.PopulateNodes[commons.CdnConfig](ctx, t, l.Name, l.Hidden, lt.Cdns, lt, l, m, 50)
-			utils.PopulateNodes[commons.CdnConfig](ctx, t, l.Name, l.Hidden, l.Cdns, lt, l, m, 50)
+			utils.PopulateNodes[commons.CdnConfig](ctx, t, l.Name, l.Hidden, lt.Cdns, lt, l, m, 50, func(config commons.CdnConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.CdnConfig](ctx, t, l.Name, l.Hidden, l.Cdns, lt, l, m, 50, func(config commons.CdnConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.CdnConfig](ctx, "cdns", lt.Cdns, l.Cdns, m, map[string]string{"name": l.Name})

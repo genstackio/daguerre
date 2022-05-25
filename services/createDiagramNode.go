@@ -3,7 +3,6 @@ package services
 import (
 	"github.com/blushft/go-diagrams/diagram"
 	"github.com/genstackio/daguerre/commons"
-	"log"
 )
 
 func defaultLabeller(ctx *commons.Ctx, n *commons.Node, mode string) string {
@@ -24,7 +23,6 @@ func defaultLabeller(ctx *commons.Ctx, n *commons.Node, mode string) string {
 	return label
 }
 func createDiagramNode(ctx *commons.Ctx, n *commons.Node, withLabel bool) *diagram.Node {
-	log.Println(n.Type, n.Name)
 	creator, found := ctx.GetDiagramNodeCreator(n.Type)
 	if !found {
 		return nil

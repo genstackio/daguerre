@@ -100,7 +100,8 @@ func (c PartnerConfig) GetLinks() *[]string {
 }
 
 type PersonaConfig struct {
-	Links *[]string `json:"links"`
+	Links    *[]string `json:"links"`
+	Multiple bool      `json:"multiple"`
 }
 
 func (c PersonaConfig) GetLinks() *[]string {

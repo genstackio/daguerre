@@ -14,8 +14,8 @@ func createApigwNodeType() commons.PluginNodeType {
 		ListName: "apigws",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("apigws", m)
-			utils.PopulateNodes[commons.ApigwConfig](ctx, t, l.Name, l.Hidden, lt.Apigws, lt, l, m, 70)
-			utils.PopulateNodes[commons.ApigwConfig](ctx, t, l.Name, l.Hidden, l.Apigws, lt, l, m, 70)
+			utils.PopulateNodes[commons.ApigwConfig](ctx, t, l.Name, l.Hidden, lt.Apigws, lt, l, m, 70, func(config commons.ApigwConfig) map[string]commons.ParamModel { return map[string]commons.ParamModel{} })
+			utils.PopulateNodes[commons.ApigwConfig](ctx, t, l.Name, l.Hidden, l.Apigws, lt, l, m, 70, func(config commons.ApigwConfig) map[string]commons.ParamModel { return map[string]commons.ParamModel{} })
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.ApigwConfig](ctx, "apigws", lt.Apigws, l.Apigws, m, map[string]string{"name": l.Name})

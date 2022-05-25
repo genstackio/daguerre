@@ -14,8 +14,12 @@ func createBusNodeType() commons.PluginNodeType {
 		ListName: "buses",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("buses", m)
-			utils.PopulateNodes[commons.BusConfig](ctx, t, l.Name, l.Hidden, lt.Buses, lt, l, m, 150)
-			utils.PopulateNodes[commons.BusConfig](ctx, t, l.Name, l.Hidden, l.Buses, lt, l, m, 150)
+			utils.PopulateNodes[commons.BusConfig](ctx, t, l.Name, l.Hidden, lt.Buses, lt, l, m, 150, func(config commons.BusConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.BusConfig](ctx, t, l.Name, l.Hidden, l.Buses, lt, l, m, 150, func(config commons.BusConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.BusConfig](ctx, "buses", lt.Buses, l.Buses, m, map[string]string{"name": l.Name})

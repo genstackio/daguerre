@@ -14,8 +14,12 @@ func createBucketNodeType() commons.PluginNodeType {
 		ListName: "buckets",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("buckets", m)
-			utils.PopulateNodes[commons.BucketConfig](ctx, t, l.Name, l.Hidden, lt.Buckets, lt, l, m, 30)
-			utils.PopulateNodes[commons.BucketConfig](ctx, t, l.Name, l.Hidden, l.Buckets, lt, l, m, 30)
+			utils.PopulateNodes[commons.BucketConfig](ctx, t, l.Name, l.Hidden, lt.Buckets, lt, l, m, 30, func(config commons.BucketConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.BucketConfig](ctx, t, l.Name, l.Hidden, l.Buckets, lt, l, m, 30, func(config commons.BucketConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.BucketConfig](ctx, "buckets", lt.Buckets, l.Buckets, m, map[string]string{"name": l.Name})

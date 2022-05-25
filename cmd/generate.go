@@ -17,7 +17,7 @@ based on a description file.`,
 		if err := services.Generate(&commons.Order{
 			Input:    "./platform.json",
 			Show:     []string{},
-			Expand:   []string{"api", "events", "redirect", "api-game", "admin"},
+			Expand:   []string{"all"},
 			Collapse: []string{},
 			Clusters: []string{},
 			Personae: []string{"all"},

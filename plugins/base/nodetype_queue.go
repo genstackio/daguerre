@@ -14,8 +14,12 @@ func createQueueNodeType() commons.PluginNodeType {
 		ListName: "queues",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("queues", m)
-			utils.PopulateNodes[commons.QueueConfig](ctx, t, l.Name, l.Hidden, lt.Queues, lt, l, m, 60)
-			utils.PopulateNodes[commons.QueueConfig](ctx, t, l.Name, l.Hidden, l.Queues, lt, l, m, 60)
+			utils.PopulateNodes[commons.QueueConfig](ctx, t, l.Name, l.Hidden, lt.Queues, lt, l, m, 60, func(config commons.QueueConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.QueueConfig](ctx, t, l.Name, l.Hidden, l.Queues, lt, l, m, 60, func(config commons.QueueConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.QueueConfig](ctx, "queues", lt.Queues, l.Queues, m, map[string]string{"name": l.Name})

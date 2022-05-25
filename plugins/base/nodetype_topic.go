@@ -14,8 +14,12 @@ func createTopicNodeType() commons.PluginNodeType {
 		ListName: "topics",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("topics", m)
-			utils.PopulateNodes[commons.TopicConfig](ctx, t, l.Name, l.Hidden, lt.Topics, lt, l, m, 150)
-			utils.PopulateNodes[commons.TopicConfig](ctx, t, l.Name, l.Hidden, l.Topics, lt, l, m, 150)
+			utils.PopulateNodes[commons.TopicConfig](ctx, t, l.Name, l.Hidden, lt.Topics, lt, l, m, 150, func(config commons.TopicConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.TopicConfig](ctx, t, l.Name, l.Hidden, l.Topics, lt, l, m, 150, func(config commons.TopicConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.TopicConfig](ctx, "topics", lt.Topics, l.Topics, m, map[string]string{"name": l.Name})

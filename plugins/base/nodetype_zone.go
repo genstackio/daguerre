@@ -14,8 +14,12 @@ func createZoneNodeType() commons.PluginNodeType {
 		ListName: "zones",
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("zones", m)
-			utils.PopulateNodes[commons.ZoneConfig](ctx, t, l.Name, l.Hidden, lt.Zones, lt, l, m, 10)
-			utils.PopulateNodes[commons.ZoneConfig](ctx, t, l.Name, l.Hidden, l.Zones, lt, l, m, 10)
+			utils.PopulateNodes[commons.ZoneConfig](ctx, t, l.Name, l.Hidden, lt.Zones, lt, l, m, 10, func(config commons.ZoneConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
+			utils.PopulateNodes[commons.ZoneConfig](ctx, t, l.Name, l.Hidden, l.Zones, lt, l, m, 10, func(config commons.ZoneConfig) map[string]commons.ParamModel {
+				return map[string]commons.ParamModel{}
+			})
 		},
 		LinkPopulator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			utils.PopulateAllLinks[commons.ZoneConfig](ctx, "zones", lt.Zones, l.Zones, m, map[string]string{"name": l.Name})

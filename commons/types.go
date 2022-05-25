@@ -141,10 +141,11 @@ func (c Ctx) GetLinkPopulator(name string) (PluginNodeTypeLinkPopulator, bool) {
 }
 
 type Node struct {
-	Type   string `json:"type"`
-	Name   string `json:"name"`
-	Hidden bool   `json:"hidden"`
-	Points int    `json:"points"`
+	Type    string `json:"type"`
+	Name    string `json:"name"`
+	Hidden  bool   `json:"hidden"`
+	Points  int    `json:"points"`
+	Variant string `json:"variant"`
 }
 
 type MapperFunc func(n string, v interface{}, lt *LayerConfig, l *LayerConfig) interface{}

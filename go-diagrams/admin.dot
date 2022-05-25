@@ -1,0 +1,77 @@
+digraph root {
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=13;
+	label="GoTombola Platform";
+	nodesep=0.6;
+	pad=2;
+	rankdir=LR;
+	ranksep=0.75;
+	splines=ortho;
+	vgtluwbt->wsmxjqow[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vgtluwbt->tmidrbdf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wsmxjqow->wsmxjqow[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ckraniwt->dudntmmh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rlnltaum->ckraniwt[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ckraniwt->tmidrbdf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rlnltaum->wsmxjqow[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	subgraph cluster_platform {
+	bgcolor="#E5F5FD";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=platform;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	subgraph clusteradmin {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=admin;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	ckraniwt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dudntmmh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tmidrbdf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterapi {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=api;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	wsmxjqow [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterdns {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=dns;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	vgtluwbt [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+
+}
+;
+	rlnltaum [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/user.png", imagescale=true, label=" Super Admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+
+}

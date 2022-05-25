@@ -52,13 +52,29 @@ func buildModelFromConfig(ctx *commons.Ctx, c *commons.Config) (*commons.Model, 
 		if nil == m.Clusters {
 			m.Clusters = map[string]commons.ClusterModel{}
 		}
-		m.Clusters[v.Name] = commons.ClusterModel{
-			Nodes: &[]commons.Node{},
+		cm := commons.ClusterModel{
+			Nodes:    &[]commons.Node{},
+			Requires: []string{},
 		}
+
+		if len(v.Requires) > 0 {
+			reqs := map[string]bool{}
+			for _, rq := range v.Requires {
+				reqs[rq] = true
+			}
+			reqList := []string{}
+			for k := range reqs {
+				reqList = append(reqList, k)
+			}
+			cm.Requires = reqList
+		}
+
+		m.Clusters[v.Name] = cm
 
 		for _, nt := range ctx.NodeTypes {
 			nt.NodeCreator(ctx, lt, &v, &m)
 		}
+
 	}
 
 	// link

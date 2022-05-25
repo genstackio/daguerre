@@ -3,7 +3,9 @@ package commons
 import "github.com/blushft/go-diagrams/diagram"
 
 type Order struct {
+	Schema   string   `json:"schema"`
 	Input    string   `json:"input"`
+	Format   string   `json:"format"`
 	Show     []string `json:"show"`
 	Expand   []string `json:"expand"`
 	Collapse []string `json:"collapse"`
@@ -15,6 +17,7 @@ type Order struct {
 
 type Config struct {
 	Name       string                   `json:"name"`
+	Schemas    map[string]SchemaConfig  `json:"schemas"`
 	Direction  string                   `json:"direction"`
 	Styles     map[string]string        `json:"styles"`
 	Layers     map[string]LayerConfig   `json:"layers"`

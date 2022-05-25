@@ -71,7 +71,10 @@ func explodeLink(ctx *commons.Ctx, l commons.LinkModel, m *commons.Model) (*comm
 		if a == b {
 			return nil, nil, l.Mode, c, d, e
 		}
-		if a.Dnode == b.Dnode {
+		if a.Dnode != nil && a.Dnode == b.Dnode {
+			return nil, nil, l.Mode, c, d, e
+		}
+		if a.Dgroup != nil && a.Dgroup == b.Dgroup {
 			return nil, nil, l.Mode, c, d, e
 		}
 	}

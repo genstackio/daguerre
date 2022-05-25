@@ -1,5 +1,30 @@
 {
   "name": "GoTombola Platform",
+  "schemas": {
+    "architecture": {
+      "expand": ["all"]
+    },
+    "dynamodb": {
+      "expand": ["db"]
+    },
+    "architecture-layers": {
+      "collapse": ["all"]
+    },
+    "storages": {
+      "show": ["api", "events", "lambda-layers", "storage", "db", "api-search"]
+    },
+    "admin": {
+      "expand": ["admin"],
+      "personae": [],
+      "partners": []
+    },
+    "participate": {
+      "collapse": ["db"],
+      "clusters": ["pages", "sales", "api-game", "api", "events"],
+      "personae": ["game-participants"],
+      "partners": ["all"]
+    }
+  },
   "partners": {
     "stripe": {
       "links": [
@@ -76,7 +101,10 @@
   "layers": {
     "admin": {
       "type": "genstackio/layer-admin/aws",
-      "in": ["webapps"]
+      "in": ["webapps"],
+      "requires": [
+        "api"
+      ]
     },
     "api": {
       "type": "genstackio/layer-api-nodejs/aws",
@@ -90,7 +118,6 @@
       ]
     },
     "api-app": {
-      "hidden": true,
       "type": "genstackio/layer-api-nodejs/aws",
       "in": ["apis", "microservices"]
     },
@@ -113,7 +140,6 @@
       ]
     },
     "api-directory": {
-      "hidden": true,
       "type": "genstackio/layer-api-go/aws",
       "in": ["apis", "microservices"]
     },
@@ -187,7 +213,6 @@
       "in": ["apis", "microservices"]
     },
     "api-push": {
-      "hidden": true,
       "type": "genstackio/layer-api-go/aws",
       "in": ["apis", "microservices"]
     },
@@ -207,7 +232,6 @@
       "in": ["apis", "microservices"]
     },
     "api-sherlock": {
-      "hidden": true,
       "type": "genstackio/layer-api-nodejs/aws",
       "in": ["apis", "microservices"]
     },
@@ -220,7 +244,6 @@
       ]
     },
     "api-social": {
-      "hidden": true,
       "type": "genstackio/layer-api-go/aws",
       "in": ["apis", "microservices"]
     },
@@ -236,7 +259,6 @@
       "in": ["apis", "microservices"]
     },
     "api-svg": {
-      "hidden": true,
       "type": "genstackio/layer-api-go/aws",
       "in": ["apis", "microservices"]
     },
@@ -245,7 +267,6 @@
       "in": ["apis", "microservices"]
     },
     "api-ticket": {
-      "hidden": true,
       "type": "genstackio/layer-api-go/aws",
       "in": ["apis", "microservices"]
     },
@@ -258,7 +279,10 @@
     },
     "api-video": {
       "type": "genstackio/layer-api-nodejs/aws",
-      "in": ["apis", "microservices"]
+      "in": ["apis", "microservices"],
+      "links": [
+        "lambdas/api-video > buckets/userdocs"
+      ]
     },
     "api-widget": {
       "type": "genstackio/layer-api-go/aws",
@@ -285,28 +309,136 @@
       "type": "custom",
       "in": [],
       "tables": {
-        "game_beneficiary": {},
-        "game_bunch": {},
-        "game_draw": {},
-        "game_gachievement": {},
-        "game_game": {},
-        "game_gaudio": {},
-        "game_gimage": {},
-        "game_godfather": {},
-        "game_greport": {},
-        "game_gvideo": {},
-        "game_input": {},
-        "game_keyword": {},
-        "game_pack": {},
-        "game_preorder": {},
-        "game_project": {},
-        "game_promise": {},
-        "game_sale": {},
-        "game_seller": {},
-        "game_sellergroup": {},
-        "game_sponsoring": {},
-        "game_ticket": {},
-        "game_winner":{}
+        "game_beneficiary": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_bunch": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_draw": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_gachievement": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_game": {
+          "links": [
+            "> tables/user_organization"
+          ]
+        },
+        "game_gaudio": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_gimage": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_godfather": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_greport": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_gvideo": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_input": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_keyword": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_pack": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_preorder": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_project": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_promise": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_sale": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_seller": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_sellergroup": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_sponsoring": {
+          "links": [
+            "> tables/game_game"
+          ]
+        },
+        "game_ticket": {
+          "links": [
+            "> tables/game_game",
+            "> tables/game_sale"
+          ]
+        },
+        "game_winner":{
+          "links": [
+            "> tables/game_draw"
+          ]
+        },
+        "tenant_partner":{
+          "links": [
+            "> tables/tenant_tenant"
+          ]
+        },
+        "user_user":{
+          "links": [
+            "> tables/tenant_tenant"
+          ]
+        },
+        "user_organization":{
+          "links": [
+            "> tables/user_user",
+            "> tables/tenant_partner",
+            "> tables/tenant_tenant"
+          ]
+        },
+        "tenant_tenant":{
+        }
       }
     },
     "dns": {
@@ -335,7 +467,12 @@
       },
       "links": [
         "cdns/errors > buckets/errors-assets"
-      ]
+      ],
+      "webclients": {
+        "{{name}}": {
+          "framework": "razzle"
+        }
+      }
     },
     "events": {
       "type": "custom",
@@ -379,6 +516,11 @@
     "pages": {
       "type": "genstackio/layer-api-nodejs/aws",
       "in": [],
+      "webclients": {
+        "{{name}}": {
+          "framework": "razzle"
+        }
+      },
       "buckets": {
         "pages-assets": {}
       },
@@ -401,7 +543,12 @@
       },
       "links": [
         "cdns/sales > buckets/sales-assets"
-      ]
+      ],
+      "webclients": {
+        "{{name}}": {
+          "framework": "razzle"
+        }
+      }
     },
     "starter": {
       "type": "genstackio/layer-starter/aws",

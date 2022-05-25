@@ -24,6 +24,7 @@ func loadConfigFile(path string) (*commons.Config, error) {
 	config := &commons.Config{
 		Layers:     map[string]commons.LayerConfig{},
 		LayerTypes: map[string]commons.LayerConfig{},
+		Schemas:    map[string]commons.SchemaConfig{},
 	}
 
 	err = json.Unmarshal(byteValue, config)

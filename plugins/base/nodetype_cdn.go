@@ -31,6 +31,19 @@ func createCdnNodeType() commons.PluginNodeType {
 			tt := le.Type
 			x := m.Lists[tt][le.Name]
 
+			if len(x.LayerType.Webclients) > 0 {
+				var clf string
+				for k, _ := range x.LayerType.Webclients {
+					if len(clf) > 0 {
+						break
+					}
+					clf = k
+				}
+				if len(clf) > 0 {
+					return commons.LinkEndpointModel{Name: clf, Type: "webclients"}
+				}
+				return le
+			}
 			if len(x.LayerType.Cloudfuncs) > 0 {
 				var clf string
 				for k, _ := range x.LayerType.Cloudfuncs {

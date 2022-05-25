@@ -21,4 +21,5 @@ var nodeTypes = []commons.PluginNodeType{
 	createTableNodeType(),
 	createZoneNodeType(),
 	createTopicNodeType(),
+	createWebclientNodeType(),
 }

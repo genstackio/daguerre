@@ -25,6 +25,9 @@ func PopulateNodes[T interface{}](ctx *commons.Ctx, t string, name string, hidde
 						Params:    params,
 						Cluster:   l.Name,
 					}
+					if v, found6 := params["variant"]; found6 {
+						nod.Variant = v.Value
+					}
 					*m.Clusters[l.Name].Nodes = append(*m.Clusters[l.Name].Nodes, nod)
 				}
 			}

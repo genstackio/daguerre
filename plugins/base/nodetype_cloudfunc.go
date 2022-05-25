@@ -24,7 +24,7 @@ func createCloudfuncNodeType() commons.PluginNodeType {
 			utils.PopulateAllLinks[commons.CloudfuncConfig](ctx, "cloudfuncs", lt.Cloudfuncs, l.Cloudfuncs, m, map[string]string{"name": l.Name})
 		},
 		DiagramNodeCreator: func(ctx *commons.Ctx, n *commons.Node, label string) *diagram.Node {
-			return utils.EnrichDiagramNode(AwsLambdaEdgeNode(ctx), n, label)
+			return utils.EnrichDiagramNode(AwsCloudfrontFunctionNode(ctx), n, label)
 		},
 	}
 }

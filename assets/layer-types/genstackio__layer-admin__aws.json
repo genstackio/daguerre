@@ -2,6 +2,11 @@
     "records": {
         "{{name}}": {}
     },
+    "webclients": {
+        "{{name}}": {
+            "framework": "create-react-app"
+        }
+    },
     "cdns": {
         "{{name}}": {
             "links": [

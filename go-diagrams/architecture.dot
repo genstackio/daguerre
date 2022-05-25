@@ -8,238 +8,296 @@ digraph root {
 	rankdir=LR;
 	ranksep=0.75;
 	splines=ortho;
-	kjjwffwd->yxohzsze[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fiocvait->bkyuuldu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ptaenxqv->bxtlmbyz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qthibeqr->soocbjjg[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hgorxncl->zllprxun[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cyynkzgu->buecetvu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rzneumlx->uebsrmrc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mcggjkkm->eqdmnfhf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dmibvpjr->gkiugbvn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cailbekn->jymotecj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->smzfiusb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ublskyds->cdxvlgzh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	raeiviwb->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->vnosuabs[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->reatbdpp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->awtfrbud[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->xsngifvz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vecvjngw->hjlemhvz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->mdejezeb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	deuelafa->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	uctjidyt->jtgnssvn[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->dzabgany[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	nekydkev->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ncabmvkf->xxymmgvy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dzabgany->lypugzmm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dsqbhoxr->krsmhzye[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->awtfrbud[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dlsrlqxm->kwlzzmms[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xnpddiaj->vuvwtlzp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->tlcxqgxa[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tpcdxpmr->ttdjtupo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	kwlzzmms->bcslvfug[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rzneumlx->awtfrbud[ color="#7B8894", dir=back, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ublskyds->kilmbwgb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	edcggkgn->cailbekn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dmibvpjr->qibntzkx[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->owqyyohr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	udyicpoi->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gfjdrnva->hkbvpkgw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	uzhkmdlq->hmcqjqiy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->irxkymwm[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->rlxihqoe[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	yzexnwkb->hdzropdc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fnqzsivd->dmibvpjr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dzabgany->fiocvait[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xkiqcfdw->ktcupsvu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	jqwpmplc->kvzwirhb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	nekydkev->tftlpqnk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rhwipofd->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bhsfhrtj->wnxtzfzy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cirzavfe->dydgxioo[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mfbilaru->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fdohiiay->uzhkmdlq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vnosuabs->swqadjji[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->ublskyds[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qwscplmz->qjjzcqoz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rzneumlx->riprormu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->xitpyrhh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->vrotxbha[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	soocbjjg->bwrwrniz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->tpcdxpmr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->gocnpxzr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	jedtssyk->ymwbhejp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->fxkqjnya[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pvoegtwn->udyicpoi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	wpleiqdh->mcggjkkm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	yqkceiqu->wpleiqdh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qmhuqsuu->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bexwfabz->rlxihqoe[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->gbzkzbig[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	nekydkev->lshrrbib[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hkbvpkgw->qzowuepc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->mfkmdpmq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	raeiviwb->awtfrbud[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	joxxpsyp->elxpgvnl[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hqmnedsr->wpleiqdh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->iukdcqve[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->afyjgwlf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bslrnrti->uwztnpen[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ajjxbygp->cqnxygjz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qekjttdr->khyuwxim[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	owqyyohr->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hkbvpkgw->ijnwcfht[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	raeiviwb->hgorxncl[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	wvmncums->iscqdiyx[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	orhmddft->yzexnwkb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	uctjidyt->fdohiiay[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->oseyxldc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hgorxncl->gbzkzbig[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->ndrwjxsg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->fnqzsivd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->iscqdiyx[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cdxvlgzh->nfacsbzr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dlsrlqxm->kzynzznf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujqcwrsn->orhmddft[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->deuelafa[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->rerskgtg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	huomyowz->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	asrreomb->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mnhommjp->yltsaeph[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujqcwrsn->mdejezeb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ehqvsaji->wpleiqdh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tsdomwjz->bslrnrti[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	thgfxwth->xhtgdjfr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	raeiviwb->ublskyds[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ybdmjvya->vcgcbbgv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->kcvsrwhk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rlxihqoe->hrxqkjmv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->ahedycmx[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	jtgnssvn->pvoegtwn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	smzfiusb->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pvoegtwn->rhpywclt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tsdomwjz->tawkcocz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->gwomkdiy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->rhwipofd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bihpmofr->vuceigle[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	eewjumnp->gykgkxyi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fxkqjnya->zvtmqpix[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vnosuabs->xkiqcfdw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	afyjgwlf->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vrotxbha->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->tfnucwhw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tpcdxpmr->uucvpztu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cwhjxnov->lsetnfeq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->bcslvfug[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xitpyrhh->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->qthibeqr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	eewjumnp->uqoepeyw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->mnhommjp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rlxihqoe->shvjvdyx[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->ijnwcfht[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gocnpxzr->kksihjjo[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vecvjngw->thgfxwth[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->qmhuqsuu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->xnpddiaj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gfrqjysd->cyynkzgu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	kuhgrcfm->ehqvsaji[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ktcupsvu->jtgnssvn[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->cirzavfe[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	reatbdpp->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->teftbvbf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->asrreomb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	kuhgrcfm->yqkceiqu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fdohiiay->fpvqjcwk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->ublskyds[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gfjdrnva->dzabgany[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rerskgtg->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->rkuhbuvi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ndrwjxsg->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gwomkdiy->qdlvngdo[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ajjxbygp->kjjwffwd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vuvwtlzp->uctjidyt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xxymmgvy->qwscplmz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xnpddiaj->nphmkdqc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujqcwrsn->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->ajjxbygp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dsqbhoxr->mbhtwfkd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fbtdexdy->ohqztfdh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	oseyxldc->ptaenxqv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	kksihjjo->nlnqizxm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	wnxtzfzy->sghvkkob[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ybdmjvya->flgponyg[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->xnpddiaj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	npxdujda->xpzjvdum[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->teftbvbf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gfjdrnva->awtfrbud[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	kcvsrwhk->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gocnpxzr->inwekhbn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->mwlqinxt[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mcggjkkm->ujqcwrsn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gdwabijd->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->vecvjngw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mfkmdpmq->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	vcgcbbgv->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	iukdcqve->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ziczutri->ftwmvlsc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ktcupsvu->fdohiiay[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qirauejp->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	jedtssyk->kuhgrcfm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->edcggkgn[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cailbekn->cnieqhox[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	yzexnwkb->huomyowz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	pzwsiffj->kilmbwgb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fxkqjnya->quydyfki[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bvnkmdwq->npxdujda[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	krsmhzye->mfbilaru[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	teftbvbf->joxxpsyp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bvnkmdwq->ahedycmx[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->bhsfhrtj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->qirauejp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	qthibeqr->lywshjsd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	rkuhbuvi->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->tpcdxpmr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	zvtmqpix->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mdejezeb->jedtssyk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gwomkdiy->nefzyvxg[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->bkyuuldu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	nekydkev->hqmnedsr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	dxewkovo->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->gmrskbau[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tpcdxpmr->bihpmofr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	bosalayh->vnosuabs[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	joxxpsyp->nekydkev[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	riprormu->fpvqjcwk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	wnxtzfzy->jqwpmplc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->dxewkovo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	uzhkmdlq->nkchpkdy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	quydyfki->gfrqjysd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cxprcsgl->bcpnotgn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gbhlkuol->awtfrbud[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	hliitldh->htrpfzns[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fbtdexdy->abxmauvq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mwlqinxt->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	raeiviwb->dzabgany[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	nkchpkdy->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tlcxqgxa->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	jymotecj->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->tsdomwjz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gfjdrnva->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	mnhommjp->hliitldh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ncabmvkf->ksdgtanj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	fsmixrds->ybdmjvya[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cyynkzgu->mumkccdd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	cirzavfe->ysnrrhyp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	tsdomwjz->tfnucwhw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ptaenxqv->dbcyrsuw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	htrpfzns->bvnkmdwq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ujprvybv->fnqzsivd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	gmrskbau->bexwfabz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	xpzjvdum->gdwabijd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	ublskyds->xobaitce[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
-	irxkymwm->ncabmvkf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tbyjhehw->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ladqtotd->mjviptkj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->gizmsstu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	slglmcaf->dvzbbqhn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	neggnani->objunakm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ddxsbwaj->etxmecuc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spcbkroj->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ajaynssm->hoprucfu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nskbpczr->ollexvfm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	svbeitqc->hckprffj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->gtzjhhlr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pkcchhgz->jcfvqsod[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->pjbmenkf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->griucfbr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fwhhbugo->filyecfd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qymrdioo->ykbxexta[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->oqinerew[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->ceakgrnc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->tvejanhq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ttrqvymp->ywhziywh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mhmxbrqb->lyertsab[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	isgklmrh->uttsmkdp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->bevrftzx[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	zwbareyc->oxuvousm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	slglmcaf->srcbqgfy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spqccndj->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->ipbojzoz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->nxkvlsip[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fwszlsmm->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	iotxarvm->hcrgfhwc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	uqvhvyob->ddxsbwaj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jeocfjyv->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kyuhjzpz->iuhnhttd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xabknpdw->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pkcchhgz->bbhrdpdy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yngpruas->qrokwoqc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tkbgobqy->kefqtgdf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ucyvmxrw->nlgggdkc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ykbxexta->mjawcwbm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	claghunu->nwvbkhyu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jvkjrksc->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	weaxrcbe->ilevjmoi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spqccndj->nxkvlsip[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ceakgrnc->claghunu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nnbiivcs->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bcuqwtbl->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->kkvwrdbh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	djqrdnzp->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fuezoisp->lycypzhx[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ddxsbwaj->zzubijnv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nnbiivcs->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kehfxebh->aqlyzngj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	gskuazkh->ppyuyboh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xysnvcro->arckefqr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	smzxthwy->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fwhhbugo->fdxknydi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	sllnpfmt->smzxthwy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bevrftzx->jalctdeh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	thgwgmrz->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bbhrdpdy->ypdvbklk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jvkjrksc->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mjviptkj->uspohlxb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ucyvmxrw->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yeoieice->whtipmoe[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	uydejebe->lffzblcl[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	uixhrufk->fuezoisp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hczydral->bbhrdpdy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qrokwoqc->zjxbvyew[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kefqtgdf->fprolgwx[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xysnvcro->mksqpvut[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	djqrdnzp->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->zwbareyc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ftnneiei->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qevmwnpb->wgxzcsye[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->kzxdnurv[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->vwnbwnug[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->najgqbrm[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fwhhbugo->rvqqzvtn[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tkuposqi->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	svnkvunk->pxlmzfvr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ihrucuxp->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dnprcosg->svbeitqc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bbhrdpdy->pihbnipp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->ceakgrnc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->rkyxfmzb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	deqiqfbz->oexgjbtf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ucyvmxrw->koorcylu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kjbfgujh->drhyrdqq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->yngpruas[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vwnbwnug->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	isgklmrh->sayxbfjs[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	svbeitqc->adcumsdp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ebarblyi->gskuazkh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hnwomdkl->wumryydu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	upxjpbwe->ptokxmnw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	griucfbr->wbpuotzv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	axuonlmz->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	drhyrdqq->slglmcaf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	aqlyzngj->nhokudxa[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->jcfvqsod[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	iuhnhttd->bcuqwtbl[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->tkuposqi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wwadlmhd->jvhvqfdb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->qgjrpvna[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vwnbwnug->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->feshelbv[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	eyhpvcen->vbniyqeo[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	neggnani->jcfvqsod[ color="#7B8894", dir=back, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ipbojzoz->lpnkgtfi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mrtjlway->nskbpczr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fuukuwhg->uripnrzu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fprolgwx->drhyrdqq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	axauaoap->xvsbcvyw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->descxefp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wyeaqfsr->bimwvorh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ypdvbklk->zxzzgyzg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	sllnpfmt->ihkkddrq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	descxefp->rpechgqu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qnvocipo->axauaoap[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rpechgqu->izbodpqg[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	srolfint->dueqmjxt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tkbgobqy->jccckyzs[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nkmfnwye->iguvybht[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dvzbbqhn->jaybuggt[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	koorcylu->drhyrdqq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	gtzjhhlr->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->xabknpdw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ftnneiei->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rvqqzvtn->skqxhuxc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	avmvgbem->jcfvqsod[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lxtvqnnh->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	srolfint->clhdxoom[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	zwbareyc->cpibfiag[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->zxavrcri[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->sayxbfjs[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->jaybuggt[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nkmfnwye->yuqzpeox[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	gizmsstu->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qnvocipo->qudrezlz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	thgwgmrz->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mhmxbrqb->aspftzfk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->ebarblyi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	neggnani->htnsyloo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	najgqbrm->eyhpvcen[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spcbkroj->lxtvqnnh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tkuposqi->gtzjhhlr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pjbmenkf->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	claghunu->ucyvmxrw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jeocfjyv->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->tbyjhehw[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qcowrbde->tmxxvnls[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dnprcosg->whaupkcy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	griucfbr->ptihtebb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dvzbbqhn->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	feshelbv->qnvocipo[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jaybuggt->tkbgobqy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tvejanhq->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mhpgzcns->snjpurgu[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	oxuvousm->bhhhmvnc[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	oqinerew->dquhrixi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rtbzmezn->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	deqiqfbz->ftjqipsk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->thgwgmrz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	scntsjgz->ngeczoqv[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	najgqbrm->gpaiirim[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ppyuyboh->dnprcosg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bevrftzx->rkyxfmzb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->djqrdnzp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ilevjmoi->sllnpfmt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->axuonlmz[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ebarblyi->exxlldvt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	gizmsstu->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	htnsyloo->whaupkcy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->ihrucuxp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	oqinerew->hcmkejee[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nnbiivcs->ihrucuxp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->oqinerew[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bgtizvdq->fdmjxqia[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nnmzqgug->mhpgzcns[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wyeaqfsr->qiumpkuw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bevrftzx->lgxpxzyd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xkbwdrth->zmgkpwha[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rpechgqu->uyveurib[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lxtvqnnh->rtbzmezn[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->jcfvqsod[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->svnkvunk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xabknpdw->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ladqtotd->bfauvimt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lxtvqnnh->tkuposqi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tvejanhq->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->najgqbrm[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->aducgogr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	axuonlmz->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nmviwimk->ysustdgh[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	zxavrcri->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->lxtvqnnh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ipbojzoz->teccgcjm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hczydral->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	uttsmkdp->jndvocnr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	adcumsdp->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ucyvmxrw->yeechwrs[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qcowrbde->myosaclr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hcmkejee->weaxrcbe[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->pxlmzfvr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ywhziywh->nucnapva[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mjbufoei->mhmxbrqb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->fuezoisp[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qrokwoqc->osxstopf[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jalctdeh->plbninmt[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->fwhhbugo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kzxdnurv->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nxkvlsip->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dclunopo->gbotbfdy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->qevmwnpb[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	zxavrcri->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	aqlyzngj->eaqqwyhq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->bwaayqcf[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lpnkgtfi->yplxhvgr[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yeoieice->bmtogfhi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->hoprucfu[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pkcchhgz->najgqbrm[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	uydejebe->yakrwhyb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tbyjhehw->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	najgqbrm->bqtionhq[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	iwnafaue->wwadlmhd[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bwaayqcf->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->brombmgj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	arckefqr->svnkvunk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fdmjxqia->fwszlsmm[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kefqtgdf->kjbfgujh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	rtbzmezn->gtzjhhlr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qgjrpvna->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ykbxexta->bzankxem[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->mjbufoei[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->rtbzmezn[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wndgsnyt->qxccjyib[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wgxzcsye->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nnmzqgug->inardshz[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	aducgogr->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	mjawcwbm->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->gpaiirim[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wbpuotzv->dtdimkbe[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fuezoisp->lqffyfde[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lyertsab->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	fdmjxqia->ezcjabjj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kkvwrdbh->srolfint[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hnwomdkl->brombmgj[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bhhhmvnc->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->zxzzgyzg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ywhziywh->prlnkuov[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xkbwdrth->nppuvqvq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->xkbwdrth[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pkcchhgz->isgklmrh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->bbhrdpdy[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->jvkjrksc[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	bwaayqcf->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->jeocfjyv[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	weaxrcbe->dnprcosg[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->kkvwrdbh[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->fwhhbugo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ihrucuxp->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nxkvlsip->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ppyuyboh->ilevjmoi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->spqccndj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kyuhjzpz->qckkswrl[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yuqzpeox->qkkdspqq[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->uydejebe[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	vhukyoqo->nkmfnwye[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kzxdnurv->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	pjbmenkf->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->ladqtotd[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->nnbiivcs[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qxccjyib->upxjpbwe[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	lxtvqnnh->gtzjhhlr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	jndvocnr->ftnneiei[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qevmwnpb->wndgsnyt[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	oexgjbtf->wmfesxat[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	qgjrpvna->spcbkroj[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	aducgogr->uixhrufk[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	heuuutwv->ymriwnho[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	izbodpqg->hsgplmqp[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	upxjpbwe->ynamwaja[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	nskbpczr->jhnqmjvk[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hsgplmqp->msfhwewx[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	hczydral->jcfvqsod[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	wwadlmhd->kprddbmw[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	yrardvve->ebarblyi[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dclunopo->ymriwnho[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dvzbbqhn->qymrdioo[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
 	subgraph cluster_platform {
 	bgcolor="#E5F5FD";
 	fontcolor="#2D3436";
@@ -260,6 +318,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	inardshz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mhpgzcns [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nnmzqgug [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	snjpurgu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -273,10 +335,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	hjlemhvz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	thgfxwth [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vecvjngw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xhtgdjfr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bfauvimt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ladqtotd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mjviptkj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uspohlxb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-auth", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -290,10 +352,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	dsqbhoxr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	krsmhzye [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mbhtwfkd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mfbilaru [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bcuqwtbl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	iuhnhttd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kyuhjzpz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qckkswrl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -307,10 +369,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	ksdgtanj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ncabmvkf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qwscplmz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xxymmgvy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hsgplmqp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	izbodpqg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	rpechgqu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uyveurib [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-connector", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -324,6 +386,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	nucnapva [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-directory", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	prlnkuov [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-directory", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ttrqvymp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-directory", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ywhziywh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-directory", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -337,10 +403,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	ajjxbygp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	cqnxygjz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kjjwffwd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	yxohzsze [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dtdimkbe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	griucfbr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ptihtebb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wbpuotzv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-doc", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -354,10 +420,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bxtlmbyz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	dbcyrsuw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	oseyxldc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ptaenxqv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ptokxmnw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qxccjyib [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	upxjpbwe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ynamwaja [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -371,10 +437,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bhsfhrtj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	jqwpmplc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	sghvkkob [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	wnxtzfzy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	axauaoap [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	feshelbv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qnvocipo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qudrezlz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-email", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -388,10 +454,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	hdzropdc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	huomyowz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	orhmddft [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	yzexnwkb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bzankxem [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mjawcwbm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qymrdioo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ykbxexta [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-event", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -405,10 +471,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	ktcupsvu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	swqadjji [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vnosuabs [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xkiqcfdw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dquhrixi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hcmkejee [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	oqinerew [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	weaxrcbe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-files", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -422,10 +488,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	fdohiiay [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	hmcqjqiy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	nkchpkdy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uzhkmdlq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	adcumsdp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dnprcosg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hckprffj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	svbeitqc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-game", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -439,10 +505,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	eqdmnfhf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mcggjkkm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ujqcwrsn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	wpleiqdh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	drhyrdqq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dvzbbqhn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	slglmcaf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	srcbqgfy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-gateway", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -456,10 +522,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	nphmkdqc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uctjidyt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vuvwtlzp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xnpddiaj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ebarblyi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	exxlldvt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	gskuazkh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ppyuyboh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-image", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -473,10 +539,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	elxpgvnl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	joxxpsyp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	nekydkev [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	teftbvbf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ceakgrnc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	claghunu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nwvbkhyu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ucyvmxrw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-payment", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -490,10 +556,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	gocnpxzr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	inwekhbn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kksihjjo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	nlnqizxm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	iguvybht [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nkmfnwye [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qkkdspqq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yuqzpeox [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-pdf", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -507,6 +573,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	ddxsbwaj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-push", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	etxmecuc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-push", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uqvhvyob [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-push", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zzubijnv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-push", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -520,10 +590,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	dmibvpjr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	fnqzsivd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gkiugbvn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qibntzkx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	clhdxoom [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dueqmjxt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kkvwrdbh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	srolfint [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-qrcode", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -537,10 +607,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	flgponyg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	fsmixrds [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vcgcbbgv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ybdmjvya [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bgtizvdq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ezcjabjj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fdmjxqia [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fwszlsmm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -554,9 +624,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	hrxqkjmv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-opensearch-cluster.png", imagescale=true, label="opensearch - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rlxihqoe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	shvjvdyx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fuezoisp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lqffyfde [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-opensearch-cluster.png", imagescale=true, label="opensearch - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lycypzhx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-search", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -570,6 +640,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	deqiqfbz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-sherlock", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ftjqipsk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-sherlock", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	oexgjbtf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-sherlock", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wmfesxat [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-sherlock", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -583,10 +657,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	jedtssyk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kuhgrcfm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mdejezeb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ymwbhejp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jaybuggt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jccckyzs [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kefqtgdf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tkbgobqy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-sms", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -600,6 +674,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	iwnafaue [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-social", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jvhvqfdb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-social", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kprddbmw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-social", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wwadlmhd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-social", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -613,10 +691,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	hliitldh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	htrpfzns [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mnhommjp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	yltsaeph [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bhhhmvnc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	cpibfiag [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	oxuvousm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zwbareyc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-spreadsheet", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -630,10 +708,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	buecetvu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	cyynkzgu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gfrqjysd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mumkccdd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	osxstopf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qrokwoqc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yngpruas [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zjxbvyew [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-stats", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -647,6 +725,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	aqlyzngj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-svg", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	eaqqwyhq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-svg", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kehfxebh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-svg", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nhokudxa [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-svg", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -660,10 +742,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bwrwrniz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	lywshjsd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qthibeqr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	soocbjjg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ipbojzoz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lpnkgtfi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	teccgcjm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yplxhvgr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-template", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -677,6 +759,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	jhnqmjvk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mrtjlway [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nskbpczr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ollexvfm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -690,10 +776,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	jtgnssvn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	pvoegtwn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rhpywclt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	udyicpoi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ihkkddrq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ilevjmoi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	sllnpfmt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	smzxthwy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-user", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -707,10 +793,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bcslvfug [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	dlsrlqxm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kwlzzmms [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kzynzznf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	arckefqr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mksqpvut [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	svnkvunk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xysnvcro [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-video", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -724,10 +810,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	cailbekn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	cnieqhox [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	edcggkgn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	jymotecj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	aspftzfk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lyertsab [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mhmxbrqb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	mjbufoei [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -767,9 +853,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	abxmauvq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	fbtdexdy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ohqztfdh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="edge - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	myosaclr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-lambda-edge.png", imagescale=true, label="edge - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qcowrbde [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tmxxvnls [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - streams-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -783,9 +869,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	dzabgany [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	fiocvait [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="edge - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	lypugzmm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bbhrdpdy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	pihbnipp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ypdvbklk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-lambda-edge.png", imagescale=true, label="edge - uploads-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -799,9 +885,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	hkbvpkgw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ijnwcfht [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qzowuepc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	brombmgj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	duugoyjt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-create-react-app.png", imagescale=true, label="webapp - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hnwomdkl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wumryydu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -815,10 +902,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	ahedycmx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	bvnkmdwq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	npxdujda [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xpzjvdum [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	isgklmrh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jndvocnr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	sayxbfjs [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uttsmkdp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -832,8 +919,8 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bcpnotgn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - blog", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	cxprcsgl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - blog", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fuukuwhg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - blog", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uripnrzu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - blog", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -847,9 +934,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	gwomkdiy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	nefzyvxg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qdlvngdo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lffzblcl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uydejebe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yakrwhyb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - bridge", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -863,7 +950,7 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	fxkqjnya [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/integration/eventbridge.png", imagescale=true, label="bus - default", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qevmwnpb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/integration/eventbridge.png", imagescale=true, label="bus - default", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -877,7 +964,7 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	kvzwirhb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/engagement/simple-email-service-ses.png", imagescale=true, label="ses - com", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xvsbcvyw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/engagement/simple-email-service-ses.png", imagescale=true, label="ses - com", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -891,28 +978,32 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	afyjgwlf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	asrreomb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gvideo", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	deuelafa [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_preorder", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	dxewkovo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gimage", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gdwabijd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_greport", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gmrskbau [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sponsoring", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	iukdcqve [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_keyword", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kcvsrwhk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sellergroup", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mfkmdpmq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gaudio", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	mwlqinxt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_pack", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ndrwjxsg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_project", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	owqyyohr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gachievement", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qirauejp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_bunch", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qmhuqsuu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	reatbdpp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_godfather", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rerskgtg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_seller", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rhwipofd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_winner", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rkuhbuvi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_beneficiary", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	smzfiusb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_game", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tlcxqgxa [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_input", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vrotxbha [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sale", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xitpyrhh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_promise", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	aducgogr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_pack", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	axuonlmz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gaudio", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bwaayqcf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_project", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	djqrdnzp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_godfather", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ftnneiei [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_keyword", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	gizmsstu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_promise", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	gtzjhhlr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - tenant_tenant", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ihrucuxp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sale", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jeocfjyv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gimage", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jvkjrksc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_bunch", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kzxdnurv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sponsoring", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lxtvqnnh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - user_organization", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nnbiivcs [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_ticket", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nxkvlsip [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_draw", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	pjbmenkf [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_sellergroup", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qgjrpvna [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_input", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	rtbzmezn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - user_user", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	spcbkroj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_game", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	spqccndj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_winner", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tbyjhehw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gachievement", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	thgwgmrz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_gvideo", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tkuposqi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - tenant_partner", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tvejanhq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_beneficiary", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	vwnbwnug [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_greport", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xabknpdw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_preorder", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zxavrcri [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label="table - game_seller", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -926,9 +1017,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	gbhlkuol [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotb.la", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	pzwsiffj [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotombola.co", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tdxpnece [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotombola.com", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	avmvgbem [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotb.la", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	heuuutwv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotombola.co", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	urfdpqdz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/network/route-53.png", imagescale=true, label="zone - gotombola.com", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -942,11 +1033,12 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bihpmofr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tpcdxpmr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ttdjtupo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - errors-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uucvpztu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	vuceigle [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fdxknydi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - errors-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	filyecfd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fwhhbugo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	rvqqzvtn [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	skqxhuxc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	vstjwjdo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-razzle.png", imagescale=true, label="webapp - errors", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -960,9 +1052,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bexwfabz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - dbsync", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	quydyfki [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - events", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	zvtmqpix [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - jobs", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	uixhrufk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - dbsync", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wgxzcsye [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - jobs", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wndgsnyt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - events", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -976,8 +1068,8 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	iscqdiyx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - front", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	wvmncums [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - front", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ajaynssm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - front", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hoprucfu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - front", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -991,9 +1083,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	gbzkzbig [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	hgorxncl [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	zllprxun [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dclunopo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	gbotbfdy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nbovnomo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-create-react-app.png", imagescale=true, label="webapp - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ymriwnho [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - manager", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1007,11 +1100,12 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	cdxvlgzh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	kilmbwgb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	nfacsbzr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ublskyds [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xobaitce [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - pages-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	axqbozgi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-razzle.png", imagescale=true, label="webapp - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bqtionhq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - pages-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	eyhpvcen [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	gpaiirim [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	najgqbrm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	vbniyqeo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - pages", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1025,10 +1119,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	awtfrbud [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-lambda-edge.png", imagescale=true, label="cloudfunc - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	riprormu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="edge - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	rzneumlx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uebsrmrc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	htnsyloo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-lambda-edge.png", imagescale=true, label="edge - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jcfvqsod [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/custom/aws-cloudfront-function.png", imagescale=true, label="cloudfunc - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	neggnani [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	objunakm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - redirect", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1042,11 +1136,12 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bslrnrti [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tawkcocz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - sales-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tfnucwhw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tsdomwjz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uwztnpen [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bevrftzx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	dwsyysqa [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-razzle.png", imagescale=true, label="webapp - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	jalctdeh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	lgxpxzyd [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - sales-assets", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	plbninmt [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	rkyxfmzb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - sales", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1060,9 +1155,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	eewjumnp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gykgkxyi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	uqoepeyw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	bmtogfhi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	whtipmoe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yeoieice [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - starter", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1076,12 +1171,12 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	cwhjxnov [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics2", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ftwmvlsc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	khyuwxim [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics3", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	lsetnfeq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics2", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qekjttdr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics3", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ziczutri [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hcrgfhwc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics3", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	iotxarvm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics3", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ngeczoqv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nmviwimk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics2", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	scntsjgz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - statics", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ysustdgh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - statics2", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1095,10 +1190,10 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	bkyuuldu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - uploads", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	fpvqjcwk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - cache-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	xsngifvz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - userdocs", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	zfnykkhh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - cache-private", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	pxlmzfvr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - userdocs", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	whaupkcy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - cache-public", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yfhokhlh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - cache-private", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zxzzgyzg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - uploads", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1112,6 +1207,9 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
+	bimwvorh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - storybook", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	qiumpkuw [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - storybook", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	wyeaqfsr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - storybook", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1138,7 +1236,7 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	irxkymwm [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/integration/simple-notification-service-sns.png", imagescale=true, label="topic - public-events", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	descxefp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/integration/simple-notification-service-sns.png", imagescale=true, label="topic - public-events", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
@@ -1152,24 +1250,24 @@ digraph root {
 	pencolor="#AEB6BE";
 	shape=box;
 	style=rounded;
-	cirzavfe [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	dydgxioo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ysnrrhyp [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nppuvqvq [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xkbwdrth [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	zmgkpwha [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - widget", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }
 ;
 
 }
 ;
-	bosalayh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Game Organizers", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ehqvsaji [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-callr.png", imagescale=true, label=CALLR, labelloc=b, shape=none, style=rounded, width=1.4 ];
-	gfjdrnva [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/user.png", imagescale=true, label=" Super Admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	hqmnedsr [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-stripe.png", imagescale=true, label=STRIPE, labelloc=b, shape=none, style=rounded, width=1.4 ];
-	lshrrbib [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-paypal.png", imagescale=true, label=PAYPAL, labelloc=b, shape=none, style=rounded, width=1.4 ];
-	qjjzcqoz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-slack.png", imagescale=true, label=SLACK, labelloc=b, shape=none, style=rounded, width=1.4 ];
-	raeiviwb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Admins", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	tftlpqnk [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-lydia.png", imagescale=true, label=LYDIA, labelloc=b, shape=none, style=rounded, width=1.4 ];
-	ujprvybv [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Game Participants", labelloc=b, shape=none, style=rounded, width=1.4 ];
-	yqkceiqu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-smsfactor.png", imagescale=true, label=SMSFACTOR, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	fprolgwx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-smsfactor.png", imagescale=true, label=SMSFACTOR, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	hczydral [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/user.png", imagescale=true, label=" Super Admin", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kjbfgujh [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-callr.png", imagescale=true, label=CALLR, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	koorcylu [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-stripe.png", imagescale=true, label=STRIPE, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	msfhwewx [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-slack.png", imagescale=true, label=SLACK, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	nlgggdkc [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-lydia.png", imagescale=true, label=LYDIA, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	pkcchhgz [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Admins", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	vhukyoqo [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Game Participants", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yeechwrs [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/partner-paypal.png", imagescale=true, label=PAYPAL, labelloc=b, shape=none, style=rounded, width=1.4 ];
+	yrardvve [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/aws/general/users.png", imagescale=true, label=" Game Organizers", labelloc=b, shape=none, style=rounded, width=1.4 ];
 
 }

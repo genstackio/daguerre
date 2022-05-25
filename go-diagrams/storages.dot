@@ -1,0 +1,114 @@
+digraph root {
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=13;
+	label="GoTombola Platform";
+	nodesep=0.6;
+	pad=2;
+	rankdir=LR;
+	ranksep=0.75;
+	splines=ortho;
+	tcmaclel->cyhbrxti[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spcoolig->owwawkok[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tcmaclel->kfyytihm[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	kfyytihm->spcoolig[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	spcoolig->tcmaclel[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tcmaclel->owwawkok[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	subgraph cluster_platform {
+	bgcolor="#E5F5FD";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=platform;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	subgraph "clusterapi-search" {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label="api-search";
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	owwawkok [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/custom/aws-opensearch-cluster.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph "clusterlambda-layers" {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label="lambda-layers";
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+
+}
+;
+	subgraph clusterapi {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=api;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	tcmaclel [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterdb {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=db;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	kfyytihm [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterevents {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=events;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	spcoolig [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterstorage {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=storage;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	cyhbrxti [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+
+}
+;
+
+}

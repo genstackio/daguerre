@@ -9,20 +9,15 @@ import (
 
 // generateCmd represents the generate command
 var generateCmd = &cobra.Command{
-	Use:   "generate",
+	Use:   "generate <platform.json> [<schema>]",
 	Short: "Generate diagrams/schemas for your cloud architecture",
+	Args:  cobra.MinimumNArgs(2),
 	Long: `Daguerre generate architecture diagrams for your cloud platform
 based on a description file.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := services.Generate(&commons.Order{
-			Input:    "./platform.json",
-			Show:     []string{},
-			Expand:   []string{"all"},
-			Collapse: []string{},
-			Clusters: []string{},
-			Personae: []string{"all"},
-			Partners: []string{"all"},
-			Output:   "architecture",
+			Input:  args[0],
+			Schema: args[1],
 		}); nil != err {
 			log.Fatal(err)
 		}

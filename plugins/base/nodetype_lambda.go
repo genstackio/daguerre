@@ -2,7 +2,6 @@ package base
 
 import (
 	"github.com/blushft/go-diagrams/diagram"
-	"github.com/blushft/go-diagrams/nodes/aws"
 	"github.com/genstackio/daguerre/commons"
 	"github.com/genstackio/daguerre/utils"
 )
@@ -25,7 +24,7 @@ func createLambdaNodeType() commons.PluginNodeType {
 			utils.PopulateAllLinks[commons.LambdaConfig](ctx, "lambdas", lt.Lambdas, l.Lambdas, m, map[string]string{"name": l.Name})
 		},
 		DiagramNodeCreator: func(ctx *commons.Ctx, n *commons.Node, label string) *diagram.Node {
-			return utils.EnrichDiagramNode(aws.Compute.Lambda(), n, label)
+			return utils.EnrichDiagramNode(AwsLambdaNode(ctx), n, label)
 		},
 	}
 }

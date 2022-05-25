@@ -4,6 +4,7 @@ type ClusterModel struct {
 	Name     string                `json:"name"`
 	Nodes    *[]Node               `json:"nodes"`
 	Features map[string]bool       `json:"features"`
+	Requires []string              `json:"requires"`
 	Params   map[string]ParamModel `json:"params"`
 }
 type ItemModel struct {
@@ -28,12 +29,13 @@ func (l LinkModel) ToString() string {
 }
 
 type KeptLinkModel struct {
-	From   *CtxEntry       `json:"from"`
-	To     *CtxEntry       `json:"to"`
-	Mode   string          `json:"mode"`
-	Count  int             `json:"count"`
-	Labels map[string]bool `json:"labels"`
-	Label  string          `json:"label"`
+	From     *CtxEntry       `json:"from"`
+	To       *CtxEntry       `json:"to"`
+	Mode     string          `json:"mode"`
+	Count    int             `json:"count"`
+	Labels   map[string]bool `json:"labels"`
+	Label    string          `json:"label"`
+	FullName string          `json:"fullName"`
 }
 
 type LinkEndpointModel struct {

@@ -1,30 +1,50 @@
 package commons
 
 type LayerConfig struct {
-	Apigws       map[string]ApigwConfig      `json:"apigws"`
-	Buckets      map[string]BucketConfig     `json:"buckets"`
-	Buses        map[string]BusConfig        `json:"buses"`
-	Cdns         map[string]CdnConfig        `json:"cdns"`
-	Cloudfuncs   map[string]CloudfuncConfig  `json:"cloudfuncs"`
-	Edges        map[string]EdgeConfig       `json:"edges"`
-	Hidden       bool                        `json:"hidden"`
-	Lambdas      map[string]LambdaConfig     `json:"lambdas"`
-	Links        *[]string                   `json:"links"`
-	Name         string                      `json:"name"`
-	Opensearches map[string]OpensearchConfig `json:"opensearches"`
-	Partners     map[string]PartnerConfig    `json:"partners"`
-	Personae     map[string]PersonaConfig    `json:"personae"`
-	Queues       map[string]QueueConfig      `json:"queues"`
-	Records      map[string]RecordConfig     `json:"records"`
-	Ses          map[string]SesConfig        `json:"ses"`
-	Tables       map[string]TableConfig      `json:"tables"`
-	Topics       map[string]TopicConfig      `json:"topics"`
-	Type         string                      `json:"type"`
-	Zones        map[string]ZoneConfig       `json:"zones"`
+	LambdaLayers map[string]LambdaLayerConfig `json:"lambdaLayers"`
+	Apigws       map[string]ApigwConfig       `json:"apigws"`
+	Buckets      map[string]BucketConfig      `json:"buckets"`
+	Buses        map[string]BusConfig         `json:"buses"`
+	Cdns         map[string]CdnConfig         `json:"cdns"`
+	Cloudfuncs   map[string]CloudfuncConfig   `json:"cloudfuncs"`
+	Webclients   map[string]WebclientConfig   `json:"webclients"`
+	Edges        map[string]EdgeConfig        `json:"edges"`
+	Hidden       bool                         `json:"hidden"`
+	Lambdas      map[string]LambdaConfig      `json:"lambdas"`
+	Links        *[]string                    `json:"links"`
+	Name         string                       `json:"name"`
+	Opensearches map[string]OpensearchConfig  `json:"opensearches"`
+	Partners     map[string]PartnerConfig     `json:"partners"`
+	Personae     map[string]PersonaConfig     `json:"personae"`
+	Queues       map[string]QueueConfig       `json:"queues"`
+	Records      map[string]RecordConfig      `json:"records"`
+	Ses          map[string]SesConfig         `json:"ses"`
+	Tables       map[string]TableConfig       `json:"tables"`
+	Topics       map[string]TopicConfig       `json:"topics"`
+	Type         string                       `json:"type"`
+	Zones        map[string]ZoneConfig        `json:"zones"`
+	Requires     []string                     `json:"requires"`
 }
 
+type SchemaConfig struct {
+	Name     string   `json:"name"`
+	Expand   []string `json:"expand"`
+	Collapse []string `json:"collapse"`
+	Show     []string `json:"show"`
+	Partners []string `json:"partners"`
+	Personae []string `json:"personae"`
+	Clusters []string `json:"clusters"`
+}
 type LinksAware interface {
 	GetLinks() *[]string
+}
+
+type LambdaLayerConfig struct {
+	Links *[]string `json:"links"`
+}
+
+func (c LambdaLayerConfig) GetLinks() *[]string {
+	return c.Links
 }
 
 type ApigwConfig struct {
@@ -64,6 +84,15 @@ type CloudfuncConfig struct {
 }
 
 func (c CloudfuncConfig) GetLinks() *[]string {
+	return c.Links
+}
+
+type WebclientConfig struct {
+	Links     *[]string `json:"links"`
+	Framework string    `json:"framework"`
+}
+
+func (c WebclientConfig) GetLinks() *[]string {
 	return c.Links
 }
 

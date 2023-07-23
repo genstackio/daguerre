@@ -18,6 +18,12 @@
       "personae": [],
       "partners": []
     },
+    "app": {
+      "expand": ["app", "api-app"],
+      "show": ["api", "db"],
+      "personae": ["all"],
+      "partners": ["all"]
+    },
     "participate": {
       "collapse": ["db"],
       "clusters": ["pages", "sales", "api-game", "api", "events"],
@@ -84,11 +90,13 @@
       "multiple": true,
       "links": [
         "> cdns/errors",
+        "> cdns/app",
         "> cdns/bridge",
         "> cdns/pages",
         "> cdns/api-spreadsheet",
         "> cdns/api-auth",
         "> cdns/api-payment",
+        "> cdns/api-app",
         "> cdns/api-doc",
         "> cdns/api-qrcode",
         "> cdns/api-image",
@@ -119,7 +127,10 @@
     },
     "api-app": {
       "type": "genstackio/layer-api-nodejs/aws",
-      "in": ["apis", "microservices"]
+      "in": ["apis", "microservices"],
+      "links": [
+        "lambdas/api-app > cdns/api"
+      ]
     },
     "api-auth": {
       "type": "genstackio/layer-api-nodejs/aws",
@@ -299,7 +310,26 @@
       "type": "genstackio/layer-app/aws",
       "in": [],
       "links": [
-      ]
+      ],
+      "webclients": {
+        "{{name}}": {
+          "framework": "create-react-app"
+        }
+      }
+    },
+    "app": {
+      "type": "genstackio/layer-app/aws",
+      "in": [],
+      "links": [
+      ],
+      "requires": [
+        "api-app"
+      ],
+      "webclients": {
+        "{{name}}": {
+          "framework": "create-react-app"
+        }
+      }
     },
     "com": {
       "type": "genstackio/layer-com/aws",

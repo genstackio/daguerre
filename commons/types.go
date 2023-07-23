@@ -174,3 +174,12 @@ type PluginNodeType struct {
 type Plugin interface {
 	Register(ctx *Ctx)
 }
+
+type ModelListings struct {
+	Expandeds        map[string]bool            `json:"expandeds"`
+	Collapseds       map[string]bool            `json:"collapseds"`
+	Clusters         map[string]bool            `json:"clusters"`
+	Requireds        map[string]bool            `json:"requireds"`
+	NeedLinks        map[string]bool            `json:"needLinks"`
+	RequiredSpecials map[string]map[string]bool `json:"requiredSpecials"`
+}

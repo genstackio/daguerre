@@ -1,0 +1,94 @@
+digraph root {
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=13;
+	label="GoTombola Platform";
+	nodesep=0.6;
+	pad=2;
+	rankdir=LR;
+	ranksep=0.75;
+	splines=ortho;
+	ytyrnhsa->xemkedeb[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	tkwvghjy->ksqydrno[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	dqhlbmqr->mekcpgqa[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xtbfxoiy->tkwvghjy[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	xtbfxoiy->xkcaxwga[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ytyrnhsa->kxmmxoyi[ color="#7B8894", dir=none, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	ksqydrno->dqhlbmqr[ color="#7B8894", dir=forward, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13 ];
+	subgraph cluster_platform {
+	bgcolor="#E5F5FD";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=platform;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	subgraph "clusterapi-app" {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label="api-app";
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	ksqydrno [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label="lambda - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	tkwvghjy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/api-gateway.png", imagescale=true, label="api-gw - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xkcaxwga [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xtbfxoiy [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - api-app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterapi {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=api;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	dqhlbmqr [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/compute/lambda.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterapp {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=app;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	abcccnvg [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=1.7999999999999998, image="assets/custom/framework-create-react-app.png", imagescale=true, label="webapp - app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	kxmmxoyi [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/route-53.png", imagescale=true, label="dnsrecord - app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	xemkedeb [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/storage/simple-storage-service-s3.png", imagescale=true, label="bucket - app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+	ytyrnhsa [ fixedsize=true, fontcolor="#2D3436", fontname="Sans-Serif", fontsize=13, height=2.1999999999999997, image="assets/aws/network/cloudfront.png", imagescale=true, label="distrib - app", labelloc=b, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+	subgraph clusterdb {
+	bgcolor="#EBF3E7";
+	fontcolor="#2D3436";
+	fontname="Sans-Serif";
+	fontsize=12;
+	label=db;
+	labeljust=l;
+	pencolor="#AEB6BE";
+	shape=box;
+	style=rounded;
+	mekcpgqa [ fixedsize=true, fontcolor=white, fontname="Sans-Serif", fontsize=0, height=2.1999999999999997, image="assets/aws/database/dynamodb-table.png", imagescale=true, label=_, labelloc=none, shape=none, style=rounded, width=1.4 ];
+
+}
+;
+
+}
+;
+
+}

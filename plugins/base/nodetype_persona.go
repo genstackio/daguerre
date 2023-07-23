@@ -16,18 +16,26 @@ func createPersonaNodeType() commons.PluginNodeType {
 		NodeCreator: func(ctx *commons.Ctx, lt *commons.LayerConfig, l *commons.LayerConfig, m *commons.Model) {
 			t := utils.EnsureList("personae", m)
 			utils.PopulateNodes[commons.PersonaConfig](ctx, t, l.Name, l.Hidden, lt.Personae, lt, l, m, 150, func(config commons.PersonaConfig) map[string]commons.ParamModel {
+				v := "user"
+				if config.Multiple {
+					v = "users"
+				}
 				return map[string]commons.ParamModel{
-					"multiple": {
-						Type:      "bool",
-						BoolValue: config.Multiple,
+					"variant": {
+						Type:  "string",
+						Value: v,
 					},
 				}
 			})
 			utils.PopulateNodes[commons.PersonaConfig](ctx, t, l.Name, l.Hidden, l.Personae, lt, l, m, 150, func(config commons.PersonaConfig) map[string]commons.ParamModel {
+				v := "user"
+				if config.Multiple {
+					v = "users"
+				}
 				return map[string]commons.ParamModel{
-					"multiple": {
-						Type:      "bool",
-						BoolValue: config.Multiple,
+					"variant": {
+						Type:  "string",
+						Value: v,
 					},
 				}
 			})

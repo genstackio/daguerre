@@ -7,152 +7,19 @@ import (
 
 func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *commons.Order) error {
 
-	expandeds := map[string]bool{}
-	collapseds := map[string]bool{}
-	requireds := map[string]bool{}
-	needLinks := map[string]bool{}
-	requiredSpecials := map[string]map[string]bool{
-		"personae": {},
-		"partners": {},
-	}
-
-	for _, v := range o.Collapse {
-		collapseds[v] = true
-		needLinks[v] = true
-	}
-	for _, v := range o.Clusters {
-		requireds[v] = true
-		needLinks[v] = true
-	}
-	for _, v := range o.Personae {
-		requiredSpecials["personae"][v] = true
-	}
-	for _, v := range o.Partners {
-		requiredSpecials["partners"][v] = true
-	}
-	for _, v := range o.Show {
-		_, found1 := expandeds[v]
-		_, found2 := collapseds["all"]
-		if !found1 && !found2 {
-			collapseds[v] = true
-		}
-	}
-	for _, v := range o.Expand {
-		if _, found := collapseds[v]; !found {
-			if _, found2 := collapseds["all"]; !found2 {
-				expandeds[v] = true
-				needLinks[v] = true
-			}
-		}
-	}
-
-	if nil != m.Links {
-		for _, l := range *m.Links {
-			a, b, c, d := extractClusterFromLink(l, m)
-			_, found := needLinks[a]
-			_, found2 := needLinks[b]
-			_, found3 := needLinks["all"]
-			if found || found2 || found3 {
-				if "personae" == a || "partners" == a {
-					requiredSpecials[a][c] = true
-				} else if len(a) > 0 {
-					requireds[a] = true
-				}
-				if "personae" == b || "partners" == b {
-					requiredSpecials[b][d] = true
-				} else if len(b) > 0 {
-					requireds[b] = true
-				}
-			}
-		}
-	}
-
-	for kk, vv := range m.Clusters {
-		if "personae" == kk || "partners" == kk {
-			continue
-		}
-		_, found1 := expandeds[kk]
-		_, found2 := expandeds["all"]
-		_, found11 := collapseds[kk]
-		_, found21 := collapseds["all"]
-		if (found1 || found2) && !(found11 || found21) {
-			for _, vvv := range vv.Requires {
-				requireds[vvv] = true
-				needLinks[vvv] = true
-			}
-		}
-		_, found3 := collapseds[kk]
-		_, found4 := collapseds["all"]
-		if found3 || found4 {
-			for _, vvv := range vv.Requires {
-				requireds[vvv] = true
-				needLinks[vvv] = true
-			}
-		}
-	}
+	l := prepareModelListings(ctx, m, o)
 
 	rootGroup := diagram.NewGroup("platform").Label("platform")
 
-	for kk := range m.Clusters {
-		if "personae" == kk || "partners" == kk {
-			continue
-		}
-		_, found1 := expandeds[kk]
-		_, found2 := expandeds["all"]
-		_, found11 := collapseds[kk]
-		_, found21 := collapseds["all"]
-		if (found1 || found2) && !(found11 || found21) {
-			g := rootGroup.NewGroup(kk).Label(kk)
-			for _, v := range *m.Clusters[kk].Nodes {
-				if _, found := m.Lists[v.Type]; found {
-					if !v.Hidden {
-						dnode := createDiagramNode(ctx, &v, true)
-						if nil != dnode {
-							if nil == ctx.Items[v.Type] {
-								ctx.Items[v.Type] = map[string]commons.CtxEntry{}
-							}
-							ctx.Items[v.Type][v.Name] = commons.CtxEntry{
-								Dnode: dnode,
-							}
-							g.Add(dnode)
-						}
-					}
-				}
-			}
-		} else {
-			_, found1 = collapseds[kk]
-			_, found2 = collapseds["all"]
-			if found1 || found2 {
-				dgroup := createDiagramGroup(ctx, rootGroup, kk, m)
-				if nil == ctx.Clusters {
-					ctx.Clusters = map[string]commons.CtxEntry{}
-				}
-				ctx.Clusters[kk] = commons.CtxEntry{
-					Dgroup: dgroup,
-				}
-			} else {
-				_, found1 = requireds[kk]
-				_, found2 = requireds["all"]
-				if found1 || found2 {
-					dgroup := createDiagramGroup(ctx, rootGroup, kk, m)
-					if nil == ctx.Clusters {
-						ctx.Clusters = map[string]commons.CtxEntry{}
-					}
-					ctx.Clusters[kk] = commons.CtxEntry{
-						Dgroup: dgroup,
-					}
-				}
-			}
-		}
-	}
+	loadModelClusters(ctx, m, l, rootGroup)
 
 	d.Group(rootGroup)
 
 	if nil != m.Lists {
 		if ps, found := m.Lists["personae"]; found {
 			for i, p := range ps {
-				_, found1 := requiredSpecials["personae"][i]
-				_, found2 := requiredSpecials["personae"]["all"]
+				_, found1 := l.RequiredSpecials["personae"][i]
+				_, found2 := l.RequiredSpecials["personae"]["all"]
 				if found1 || found2 {
 					if nil == ctx.Items {
 						ctx.Items = map[string]map[string]commons.CtxEntry{}
@@ -162,15 +29,6 @@ func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *common
 					}
 					if cc, found4 := p.Params["multiple"]; found4 && cc.Type == "bool" && cc.BoolValue {
 						dnode := createDiagramNode(ctx, &commons.Node{
-							Type:    "personae",
-							Name:    i,
-							Variant: "users",
-						}, true)
-						ctx.Items["personae"][i] = commons.CtxEntry{
-							Dnode: dnode,
-						}
-					} else {
-						dnode := createDiagramNode(ctx, &commons.Node{
 							Type: "personae",
 							Name: i,
 						}, true)
@@ -178,23 +36,13 @@ func loadModel(ctx *commons.Ctx, d *diagram.Diagram, m *commons.Model, o *common
 							Dnode: dnode,
 						}
 					}
-				} else {
-					/*
-						dnode := createDiagramNode(ctx, &commons.Node{
-							Type: "personae",
-							Name: i,
-						}, true)
-						ctx.Items["personae"][i] = commons.CtxEntry{
-							Dnode: dnode,
-						}
-					*/
 				}
 			}
 		}
 		if ps, found := m.Lists["partners"]; found {
 			for i, _ := range ps {
-				_, found1 := requiredSpecials["partners"][i]
-				_, found2 := requiredSpecials["partners"]["all"]
+				_, found1 := l.RequiredSpecials["partners"][i]
+				_, found2 := l.RequiredSpecials["partners"]["all"]
 				if found1 || found2 {
 					if nil == ctx.Items {
 						ctx.Items = map[string]map[string]commons.CtxEntry{}
